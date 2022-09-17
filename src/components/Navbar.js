@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -11,34 +10,25 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
-  // const [navVisible, setNavVisible] = useState(false);
 
   return (
     <nav className="navbar">
       <h1>My Portfolio</h1>
       <div className="links">
         <Link exact="true" className="homepage" to="/">
-          {/* onClick={() => setNavVisible(false)} */}
-          {/* // activeclassname="active" */}
           <FontAwesomeIcon icon={faHouse} color="white" />
           Home
         </Link>
-        <Link className="portfolio-page" to="/portfolio">
-          Portfolio
-          {/* onClick={() => setNavVisible(false)}
-        activeclassname="active" */}
+        {/* <Link className="about-page" to="/about"> About
+          <FontAwesomeIcon icon={faCircleUser} color="white"/>
+        </Link> */}
+        <Link className="portfolio-page" to="/portfolio"> Portfolio
           <FontAwesomeIcon icon={faFolderOpen} color="white" />
         </Link>
-        <Link className="resume-page" to="/resume">
-          Resume
-          {/* onClick={() => setNavVisible(false)}
-        activeclassname="active" */}
+        <Link className="resume-page" to="/resume"> Resume
           <FontAwesomeIcon icon={faFolderOpen} color="white" />
         </Link>
-        <Link className="contact-page" to="/contact">
-          Contact
-          {/* onClick={() => setNavVisible(false)}
-        activeclassname="active" */}
+        <Link className="contact-page" to="/contact">Contact
           <FontAwesomeIcon icon={faAddressCard} color="white" />
         </Link>
         {/* <ul>
@@ -84,10 +74,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
-//     <Link
-//       onClick={() => setNavVisible(false)}
-//       className="about-page"
-//       activeclassname="active"
-//       to="/about">
-// <FontAwesomeIcon icon={faCircleUser} color="white"/>
-//     </Link>
+
