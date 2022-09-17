@@ -2,7 +2,8 @@
 
 const Home = () => {
   return (
-    <div className="homepage-container">Hello this is the homepage
+    <div className="homepage-container">
+      <h4>Hi, I'm Lindsey!</h4>
     </div>
   )
 }
