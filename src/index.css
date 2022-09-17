@@ -5,6 +5,8 @@
   margin: 0;
   font-family: "Quicksand";
   color: #333;
+  padding: 0;
+  box-sizing: border-box;
 }
 .navbar {
   padding: 20px;
@@ -33,3 +35,6 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+
+

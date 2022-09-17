@@ -21,11 +21,11 @@ const Navbar = () => {
         {/* <Link className="about-page" to="/about"> About
           <FontAwesomeIcon icon={faCircleUser} color="white"/>
         </Link> */}
-        <Link className="portfolio-page" to="/portfolio">Portfolio <FontAwesomeIcon icon={faFolderOpen}/>
+        <Link className="portfolio-page" to="/portfolio">Portfolio<FontAwesomeIcon icon={faFolderOpen}/>
         </Link>
-        <Link className="resume-page" to="/resume">Resume <FontAwesomeIcon icon={faFolderOpen}/>
+        <Link className="resume-page" to="/resume">Resume<FontAwesomeIcon icon={faFolderOpen}/>
         </Link>
-        <Link className="contact-page" to="/contact">Contact <FontAwesomeIcon icon={faAddressCard}/>
+        <Link className="contact-page" to="/contact">Contact<FontAwesomeIcon icon={faAddressCard}/>
         </Link>
         {/* <ul>
           <li>
