@@ -1,10 +1,8 @@
 import { Link, Navigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
   faAddressCard,
   faCircleUser,
-  faEnvelope,
   faFolderOpen,
   faHouse,
 } from "@fortawesome/free-solid-svg-icons";
@@ -27,43 +25,6 @@ const Navbar = () => {
         </Link>
         <Link className="contact-page" to="/contact">Contact<FontAwesomeIcon icon={faAddressCard}/>
         </Link>
-        {/* <ul>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/lindsey-lansford/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                className="social-icon"
-                color="white"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/lindsey-lansford"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon
-                icon={faGithub}
-                className="social-icon"
-                color="white"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="mailto:lindsey.lansford@gmail.com">
-              <FontAwesomeIcon
-                icon={faEnvelope}
-                className="social-icon"
-                color="white"
-              />
-            </a>
-          </li>
-        </ul> */}
       </div>
     </nav>
   );
