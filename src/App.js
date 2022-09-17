@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import About from './components/About';
+import { BrowserRouter, Link, Route, Routes, Navigate } from "react-router-dom";
+import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
@@ -10,19 +10,20 @@ import Navbar from './components/Navbar';
 function App() {
   
   return (
-    <Router>
       <div className="App">
+        <BrowserRouter>
         <Navbar />
         <div className="content">
-          <Switch>
-            <Route exact path="/"><Home /></Route>
-            <Route path="/portfolio"><Portfolio /></Route>
-            <Route path="/resume"><Resume /></Route>
-            <Route path="/contact"><Contact /></Route>
-          </Switch>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/about/*" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
         </div>
-      </div>
-    </Router>
+      </BrowserRouter>
+    </div>
   );
 }
 

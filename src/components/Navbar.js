@@ -18,10 +18,10 @@ const Navbar = () => {
       <h1>My Portfolio</h1>
       <div className="links">
         <Link exact="true" className="homepage" to="/">
-          Home
           {/* onClick={() => setNavVisible(false)} */}
           {/* // activeclassname="active" */}
           <FontAwesomeIcon icon={faHouse} color="white" />
+          Home
         </Link>
         <Link className="portfolio-page" to="/portfolio">
           Portfolio
@@ -41,7 +41,7 @@ const Navbar = () => {
         activeclassname="active" */}
           <FontAwesomeIcon icon={faAddressCard} color="white" />
         </Link>
-        <ul>
+        {/* <ul>
           <li>
             <a
               href="https://www.linkedin.com/in/lindsey-lansford/"
@@ -77,7 +77,7 @@ const Navbar = () => {
               />
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </nav>
   );
