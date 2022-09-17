@@ -29,19 +29,3 @@ function App() {
 
 export default App;
 
-// function App() {
-//   return (
-//     <Router basename="/react-portfolio">
-//     <Routes>
-//       <Route path="/" element={<Layout />}>
-//         <Route index element={<Home />} />
-//         <Route path="about" element={<About />} />
-//         <Route path="/portfolio" element={<Portfolio />} />
-//         <Route path="/resume" element={<Resume />} />
-//         <Route path="/contact" element={<Contact />} />
-//       </Route>
-//     </Routes>
-//   </Router>
-//   );
-// }
-
