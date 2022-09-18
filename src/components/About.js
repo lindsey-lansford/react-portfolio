@@ -1,11 +1,12 @@
 import "../styles/about.css";
+import bioImage from '../images/profpic1.jpg';
 
 const About = () => {
   return (
     <div className="about-page-container">
       <h1 className="title">About Me</h1>
       <div className="bio-image">
-        <img src="" alt="" className="" />
+        <img src="{bioImage}" alt="profile" className="profile-img" />
       </div>
       <div className="bio-copy">
         <p>
