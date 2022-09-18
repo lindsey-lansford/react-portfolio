@@ -13,12 +13,12 @@ const Navbar = () => {
     <nav className="navbar">
       <h1>My Portfolio</h1>
       <div className="links">
-        <Link exact="true" className="homepage" to="/">
+        {/* <Link exact="true" className="homepage" to="/">
           <FontAwesomeIcon icon={faHouse} /> Home
-        </Link>
-        {/* <Link className="about-page" to="/about"> About
-          <FontAwesomeIcon icon={faCircleUser} color="white"/>
         </Link> */}
+        <Link className="about-page" to="/about"> About
+          <FontAwesomeIcon icon={faCircleUser}/>
+        </Link>
         <Link className="portfolio-page" to="/portfolio">Portfolio<FontAwesomeIcon icon={faFolderOpen}/>
         </Link>
         <Link className="resume-page" to="/resume">Resume<FontAwesomeIcon icon={faFolderOpen}/>

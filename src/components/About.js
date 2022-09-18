@@ -1,8 +1,21 @@
-
+import "../styles/about.css";
 
 const About = () => {
   return (
-    <div className="about-page-container">Hello this is the about me page</div>
+    <div className="about-page-container">
+      <h1 className="title">About Me</h1>
+      <div className="bio-image">
+        <img src="" alt="" className="" />
+      </div>
+      <div className="bio-copy">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae delectus ullam distinctio quod consequuntur iste inventore magnam optio!
+          <p>
+          </p> Quasi inventore nihil quas tenetur ut neque, consectetur autem facere maxime quod!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quod pariatur facilis eos sed sint tenetur nisi iste. Dolor eos temporibus facere.</p>
+      </div>
+    </div>
   )
 } 
 
