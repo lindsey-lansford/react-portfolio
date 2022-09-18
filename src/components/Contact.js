@@ -32,14 +32,14 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail}>
           <ul>
             <li className="half">
-              <input placeholder="Name" type="text" name="user_name" required />
+              <input placeholder="Name" type="text" name="user_name" required="true" />
             </li>
             <li className="half">
               <input
                 placeholder="Email"
                 type="email"
                 name="user_email"
-                required
+                required="true"
               />
             </li>
             <li>
@@ -47,14 +47,14 @@ const Contact = () => {
                 placeholder="Subject"
                 type="text"
                 name="subject"
-                required
+                required="true"
               />
             </li>
             <li>
               <textarea
                 placeholder="Message"
                 name="message"
-                required
+                required="true"
               ></textarea>
             </li>
             <li>
