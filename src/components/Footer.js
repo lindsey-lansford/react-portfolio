@@ -5,7 +5,7 @@ import '../styles/footer.css';
 
 const Footer = () => {
   return (  
-    <div className="footerContainer">
+    <div className="footer-container">
       <footer>
         <ul>
           <li>
@@ -41,7 +41,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <h5> &copy; Lindsey 🧿 Lansford </h5>
+        <span className="footer-name">&copy; 2022 🧿 Lindsey Lansford | Software Developer</span>
     </footer> 
     </div>
   );
