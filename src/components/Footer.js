@@ -41,7 +41,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <h6> &copy; Lindsey 🧿 Lansford </h6>
+        <h5> &copy; Lindsey 🧿 Lansford </h5>
     </footer> 
     </div>
   );
