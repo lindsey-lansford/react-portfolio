@@ -2,7 +2,9 @@
 
 const Portfolio = () => {
   return (
-    <div className="portfolio-page-container">Hello this is the portfolio page</div>
+    <div className="portfolio-page-container">
+      <h1 className="title">Portfolio</h1>
+    </div>
   )
 } 
 

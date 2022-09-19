@@ -2,7 +2,9 @@
 
 const Resume = () => {
   return (
-    <div className="resume-page-container">Hello this is the resume page</div>
+    <div className="resume-page-container">
+      <h1 className="title">Resume</h1>
+    </div>
   )
 } 
 
