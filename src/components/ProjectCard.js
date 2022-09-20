@@ -1,8 +1,8 @@
 // import { Link } from "react-router-dom";
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
   
-  // const project = props.project;
+  const project = props.project;
 
   return (  
     <div className="card">

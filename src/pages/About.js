@@ -7,7 +7,7 @@ const About = () => {
       <h1 className="title">About Me</h1>
       <div className="container-fluid">
         <div className="row justify-content-evenly">
-          <div className="col-4">
+          <div className="col-4 justify-content-center">
             <img src={bioImage} alt="profile" className="profile-image" />
           </div>
           <div className="col-6">

@@ -1,24 +1,28 @@
-
-
 const Resume = () => {
   return (
     <div className="resume-page-container">
       <h1 className="title">Resume</h1>
-      <div class="card text-center">
-  <div class="card-header">
-    {/* Download my Resume */}
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Let's Work Together!</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Download Here</a>
-  </div>
-  <div class="card-footer text-muted">
-
-  </div>
-</div>
+      <div className="card text-center">
+        <div className="card-header">{/* Download my Resume */}</div>
+        <div className="card-body">
+          <h5 className="card-title">Let's Work Together!</h5>
+          <p className="card-text">
+            With supporting text below as a natural lead-in to additional
+            content.
+          </p>
+          <a
+            href="https://docs.google.com/document/d/1gW3SE4o8T2k_OThO1Sr9AClvUblDHVoS/edit?usp=sharing&ouid=105632238560035934063&rtpof=true&sd=true"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-primary"
+          >
+            Download Here
+          </a>
+        </div>
+        <div className="card-footer text-muted"></div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Resume;
