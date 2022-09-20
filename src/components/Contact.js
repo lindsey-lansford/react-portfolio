@@ -29,12 +29,12 @@ const Contact = () => {
         itaque?
       </p>
       <div className="contact-form">
-        <form ref={form} onSubmit={sendEmail}>
+        <form className="form-floating" ref={form} onSubmit={sendEmail}>
           <ul>
-            <li className="half">
+            <li>
               <input placeholder="Name" type="text" name="user_name" required="true" />
             </li>
-            <li className="half">
+            <li>
               <input
                 placeholder="Email"
                 type="email"
