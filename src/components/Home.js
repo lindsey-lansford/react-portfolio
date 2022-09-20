@@ -1,10 +1,6 @@
-
+import About from './About'
 
 const Home = () => {
-  return (
-    <div className="homepage-container">
-      <h4>Hi, I'm Lindsey!</h4>
-    </div>
-  )
+  return ( <About />)
 }
 export default Home;

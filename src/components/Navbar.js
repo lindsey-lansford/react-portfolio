@@ -1,4 +1,4 @@
-import { Link, Navigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAddressCard,
@@ -16,15 +16,18 @@ const Navbar = () => {
         {/* <Link exact="true" className="homepage" to="/">
           <FontAwesomeIcon icon={faHouse} /> Home
         </Link> */}
-        <Link className="about-page" to="/about"> About
-          <FontAwesomeIcon icon={faCircleUser}/>
-        </Link>
-        <Link className="portfolio-page" to="/portfolio">Portfolio<FontAwesomeIcon icon={faFolderOpen}/>
-        </Link>
-        <Link className="resume-page" to="/resume">Resume<FontAwesomeIcon icon={faFolderOpen}/>
-        </Link>
-        <Link className="contact-page" to="/contact">Contact<FontAwesomeIcon icon={faAddressCard}/>
-        </Link>
+        <NavLink className={({ isActive }) => (isActive ? "link-active" : "link")} to="/about"> About
+          {/* <FontAwesomeIcon icon={faCircleUser}/> */}
+        </NavLink>
+        <NavLink className={({ isActive }) => (isActive ? "link-active" : "link")} to="/portfolio">Portfolio
+          {/* <FontAwesomeIcon icon={faFolderOpen} /> */}
+        </NavLink>
+        <NavLink className={({ isActive }) => (isActive ? "link-active" : "link")} to="/resume">Resume
+          {/* <FontAwesomeIcon icon={faFolderOpen} /> */}
+        </NavLink>
+        <NavLink className={({ isActive }) => (isActive ? "link-active" : "link")} to="/contact">Contact
+          {/* <FontAwesomeIcon icon={faAddressCard} /> */}
+        </NavLink>
       </div>
     </nav>
   );
