@@ -15,8 +15,10 @@ const ProjectCard = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem perspiciatis dolore laboriosam quasi ad, quidem velit doloribus, magni veniam earum fugiat nihil, iste ratione delectus voluptas eum impedit. Quae, commodi?
         </div>
         <div className="card-body">
-        <a href="#" className="card-link">Card link</a>
-        <a href="#" className="card-link">Another link</a>
+        <a href="#" target="_blank"
+              rel="noreferrer" className="card-link">Project Link</a>
+        <a href="#" target="_blank"
+              rel="noreferrer" className="card-link">GitHub Repo</a>
         </div>
       </div>
     </div>

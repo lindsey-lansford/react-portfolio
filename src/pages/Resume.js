@@ -6,6 +6,6 @@ const Resume = () => {
       <h1 className="title">Resume</h1>
     </div>
   )
-} 
+}
 
 export default Resume;
