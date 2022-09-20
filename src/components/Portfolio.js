@@ -7,7 +7,12 @@ const Portfolio = () => {
     <div className="portfolio-page-container">
       <h1 className="title">Portfolio</h1>
       <div className="container">
-
+    <ProjectCard>/</ProjectCard>
+    <ProjectCard>/</ProjectCard>
+    <ProjectCard>/</ProjectCard>
+    <ProjectCard>/</ProjectCard>
+    <ProjectCard>/</ProjectCard>
+    <ProjectCard>/</ProjectCard>
       </div>
     </div>
   )
