@@ -6,13 +6,14 @@ import {
   faFolderOpen,
   faHouse,
 } from "@fortawesome/free-solid-svg-icons";
+import "../styles/nav.css"
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <Link exact="true" className="navbar-brand mb-0 h1" to="/">
-          Lindsey Lansford
+          <h2 id="headerName">Lindsey Lansford</h2>
         </Link>
         <button
           class="navbar-toggler"
