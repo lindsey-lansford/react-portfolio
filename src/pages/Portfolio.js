@@ -61,7 +61,7 @@ const Portfolio = () => {
     {
       title: "Social Network",
       image: SocialNetwork,
-      description: "Backend Mongoose Database Application",
+      description: "Backend MongoDB/Mongoose Application",
       prod: "",
       repo: "https://github.com/lindsey-lansford/social-network",
       id: 6,
