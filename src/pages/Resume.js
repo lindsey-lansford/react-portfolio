@@ -1,11 +1,13 @@
+import "../styles/resume.css";
+
 const Resume = () => {
   return (
     <div className="resume-page-container">
       <h1 className="title">Resume</h1>
       <div className="card text-center">
-        <div className="card-header">{/* Download my Resume */}</div>
+        <div className="card-header text-muted">{/* Download my Resume */}</div>
         <div className="card-body">
-          <h5 className="card-title">Let's Work Together!</h5>
+          <h5 className="card-title">Let's Create Together!</h5>
           <p className="card-text">
             With supporting text below as a natural lead-in to additional
             content.
