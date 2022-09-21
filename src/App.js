@@ -17,7 +17,7 @@ function App() {
         <Navbar />
         <div className="content">
         <Routes>
-          <Route path="/react-portfolio" element={<Home />}/>
+          <Route path="/" element={<Home />}/>
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
