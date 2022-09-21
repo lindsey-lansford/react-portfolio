@@ -5,7 +5,7 @@ const Resume = () => {
     <div className="resume-page-container">
       <h1 className="title">Resume</h1>
       <div className="card text-center">
-        <div className="card-header text-muted">{/* Download my Resume */}</div>
+        <div className="card-header" id="resume-header">{/* Download my Resume */}</div>
         <div className="card-body">
           <h5 className="card-title">Let's Create Together!</h5>
           <p className="card-text">
@@ -21,7 +21,7 @@ const Resume = () => {
             Download Here
           </a>
         </div>
-        <div className="card-footer text-muted"></div>
+        <div className="card-footer text-muted" id="resume-footer"></div>
       </div>
     </div>
   );
