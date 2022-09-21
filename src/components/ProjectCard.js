@@ -1,11 +1,13 @@
+import "../styles/projectCard.css"
+
 const ProjectCard = (props) => {
   
   return (  
-    <div className={`card ${props.id}`}>
+    <div className={`card text-center ${props.id}`}>
       <div className="card-header">
         {props.title}
       </div>
-      <img src={props.image} alt={props.title} className="project-photo" />
+      <img src={props.image} alt={props.title} className="img-fluid" />
       <div className="card-body">
         <div className="card-text">
         {props.description}

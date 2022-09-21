@@ -1,0 +1,11 @@
+.card-header {
+  font-size: 1.7rem;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+.card {
+  padding: 20px;
+  border: 0;
+}
