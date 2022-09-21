@@ -52,8 +52,8 @@ const Portfolio = () => {
     {
       title: "Employee Tracker Database",
       image: EmployeeRoles,
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil unde delectus in dolorem soluta hic maiores eos earum faPlaceOfWorship.",
-      prod: "Backend MySQL Database Application",
+      description: "Backend MySQL Database Application",
+      prod: "",
       repo: "https://github.com/lindsey-lansford/Employee-Tracker-DB",
       id: 5,
     },
@@ -61,8 +61,8 @@ const Portfolio = () => {
     {
       title: "Social Network",
       image: SocialNetwork,
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil unde delectus in dolorem soluta hic maiores eos earum faPlaceOfWorship.",
-      prod: "Backend Mongoose Database Application",
+      description: "Backend Mongoose Database Application",
+      prod: "",
       repo: "https://github.com/lindsey-lansford/social-network",
       id: 6,
     },

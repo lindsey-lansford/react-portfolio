@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -13,7 +13,7 @@ function App() {
   
   return (
       <div className="App">
-        <Router>
+        <BrowserRouter>
         <Navbar />
         <div className="content">
         <Routes>
@@ -25,7 +25,7 @@ function App() {
         </Routes>
         </div>
         <Footer />
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
