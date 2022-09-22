@@ -8,16 +8,34 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("gmail", "template_id", form.current, "your-token").then(
-      () => {
-        alert("Message successfully sent!");
-        window.location.reload(false);
-      },
-      () => {
-        alert("Failed to send the message, please try again");
-      }
-    );
+    emailjs
+      .sendForm(
+        "service_id",
+        "template_id",
+        form.current,
+        "user_id"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    // emailjs.sendForm('gmail', 'template_8dj23rb', form.current, 'lzU8BubB8HMMbDOwb')
+    //   .then(() => {
+    //     alert("Message successfully sent!");
+    //     window.location.reload(false);
+    //   },
+    //   () => {
+    //     alert("Failed to send the message, please try again");
+    //   }
+    // );
   };
+
 
   return (
     <div className="contact-page-container">
@@ -29,32 +47,24 @@ const Contact = () => {
         itaque?
       </p>
       <div className="contact-form">
-        <form className="form-floating" ref={form} onSubmit={sendEmail}>
+        <form className="" ref={form} onSubmit={sendEmail}>
           <ul>
             <li>
-              <input placeholder="Name" type="text" name="user_name" required="true" />
+              <input placeholder="Name" type="text" name="userName" required />
             </li>
             <li>
               <input
                 placeholder="Email"
                 type="email"
-                name="user_email"
-                required="true"
-              />
-            </li>
-            <li>
-              <input
-                placeholder="Subject"
-                type="text"
-                name="subject"
-                required="true"
+                name="userEmail"
+                required
               />
             </li>
             <li>
               <textarea
                 placeholder="Message"
                 name="message"
-                required="true"
+                required
               ></textarea>
             </li>
             <li>
