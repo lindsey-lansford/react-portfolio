@@ -16,7 +16,7 @@ const Portfolio = () => {
     {
       title: "Habit Stack",
       image: HabitStack,
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil unde delectus in dolorem soluta hic maiores eos earum faPlaceOfWorship.",
+      description: "Full Stack application that aims to help users build, track and stick to habits through repetition and reward with engaging animations.",
       prod: "https://habitstack.herokuapp.com/",
       repo: "https://github.com/lindsey-lansford/habit-map/tree/main",
       id: 1,
@@ -25,8 +25,8 @@ const Portfolio = () => {
     {
       title: "Concert Concierge",
       image: Concert,
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil unde delectus in dolorem soluta hic maiores eos earum faPlaceOfWorship.",
-      prod: "https://amccorkl.github.io/Concert_Concierge/",
+      description: "An application for music lovers where they can plan their perfect concert getaway and enjoy some local cuisine.",
+      prod: "https://lindsey-lansford.github.io/Concert_Concierge/",
       repo: "https://github.com/lindsey-lansford/Concert_Concierge",
       id: 2,
     },
@@ -34,7 +34,7 @@ const Portfolio = () => {
     {
       title: "Weather Dashboard",
       image: WeatherDash,
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil unde delectus in dolorem soluta hic maiores eos earum faPlaceOfWorship.",
+      description: "This web application's purpose is to generate the current weather and the future 5-day forecast by city.",
       prod: "https://lindsey-lansford.github.io/weather-forecast-dash/",
       repo: "https://github.com/lindsey-lansford/weather-forecast-dash",
       id: 3,
@@ -43,7 +43,7 @@ const Portfolio = () => {
     {
       title: "Day Planner",
       image: Planner,
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil unde delectus in dolorem soluta hic maiores eos earum faPlaceOfWorship.",
+      description: "This web application's purpose is to generate a workday calendar that enables the user to keep up with their busy day.",
       prod: "https://lindsey-lansford.github.io/day-planner/",
       repo: "https://github.com/lindsey-lansford/day-planner",
       id: 4,
