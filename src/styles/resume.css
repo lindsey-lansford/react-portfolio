@@ -5,3 +5,7 @@
 #resume-footer {
   background-color: rgb(245, 241, 241);
 }
+
+div .resume-page-container {
+  margin-bottom: 3rem;
+}
