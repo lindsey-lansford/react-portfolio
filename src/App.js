@@ -1,8 +1,7 @@
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Navigate,
+  Route
 } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -20,8 +19,8 @@ function App() {
         <Navbar />
         <div className="content">
           <Routes>
-            {/* <Route path="/react-portfolio" element={<Home />} /> */}
-            <Route path="/" element={<About />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
