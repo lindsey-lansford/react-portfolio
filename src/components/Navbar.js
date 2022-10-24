@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
-        <Link exact="true" className="navbar-brand mb-0 h1" to="/">
+        <Link className="navbar-brand mb-0 h1" to="/">
           <h2 id="headerName">Lindsey Lansford</h2>
         </Link>
         <button
@@ -40,7 +40,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? "nav-link active" : "nav-link"
               }
-              to="portfolio"
+              to="/portfolio"
             >
               Portfolio
             </NavLink>
