@@ -10,7 +10,7 @@ import "../styles/nav.css"
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-md bg-light">
       <div className="container-fluid">
         <Link className="navbar-brand mb-0 h1" to="/">
           <h2 id="headerName">Lindsey Lansford</h2>
