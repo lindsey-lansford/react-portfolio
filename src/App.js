@@ -17,7 +17,7 @@ function App() {
     <Router basename="/react-portfolio">
       <div className="App">
         <Navbar />
-        <div className="content">
+        {/* <div className="content"> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -26,7 +26,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<About />} />
           </Routes>
-        </div>
+        {/* </div> */}
         <Footer />
       </div>
     </Router>

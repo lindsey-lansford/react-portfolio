@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-
 * {
   margin: 0;
   padding: 0;
@@ -8,11 +7,11 @@
   font-family: "Quicksand";
 }
 
-.content {
+/* .App {
   max-width: 800px;
   margin: 30px auto;
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
-}
+} */
 
