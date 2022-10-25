@@ -1,35 +1,70 @@
-import "../styles/about.css";
+import * as React from 'react';
+// import "../styles/about.css";
 import bioImage from "../images/profpic2.jpg";
+import { Container, Stack, Paper, Avatar, Box } from '@mui/material';
+// import { styled } from '@mui/material/styles';
+
 
 const About = () => {
+
+  // const Item = styled(Paper)(({ theme }) => ({
+  //   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  //   ...theme.typography.body2,
+  //   padding: theme.spacing(1),
+  //   textAlign: 'center',
+  //   color: theme.palette.text.secondary,
+  // }));
+
   return (
     <div className="about-page-container">
-      <h1 className="title">About Me</h1>
-      <div className="container-fluid">
-        <div className="row justify-content-evenly">
-          <div className="col-4 justify-content-center">
-            <img src={bioImage} alt="profile" className="profile-image" />
-          </div>
-          <div className="col-6">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              delectus ullam distinctio quod consequuntur iste inventore magnam
-              optio!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-              quod pariatur facilis eos sed sint tenetur nisi iste. Dolor eos
-              temporibus facere.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-              quod pariatur facilis eos sed sint tenetur nisi iste. Dolor eos
-              temporibus facere.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <h1 className="title">About Me</h1>
+    <Container maxWidth="lg">
+      <Stack
+        direction={{ xs: 'column', sm: 'row' }}
+        spacing={{ xs: 1, sm: 2, md: 4 }}
+        >
+          <Avatar src={bioImage} alt="profile" sx={{ width: 150, height: 210}}/>
+        {/* <Item><img src={bioImage} alt="profile" className="profile-image" /></Item> */}
+        <Box>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            delectus ullam distinctio quod consequuntur iste inventore magnam
+            optio!
+          </Box>
+          <Box>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            quod pariatur facilis eos sed sint tenetur nisi iste. Dolor eos
+            temporibus facere.
+            </Box>
+      </Stack>
+      </Container>
+  </div>
+    // <div className="about-page-container">
+    //   <h1 className="title">About Me</h1>
+    //   <div className="container-fluid">
+    //     <div className="row justify-content-evenly">
+    //       <div className="col-4 justify-content-center">
+    //         <img src={bioImage} alt="profile" className="profile-image" />
+    //       </div>
+    //       <div className="col-6">
+    //         <p>
+    //           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+    //           delectus ullam distinctio quod consequuntur iste inventore magnam
+    //           optio!
+    //         </p>
+    //         <p>
+    //           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+    //           quod pariatur facilis eos sed sint tenetur nisi iste. Dolor eos
+    //           temporibus facere.
+    //         </p>
+    //         <p>
+    //           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+    //           quod pariatur facilis eos sed sint tenetur nisi iste. Dolor eos
+    //           temporibus facere.
+    //         </p>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
   );
 };
 
