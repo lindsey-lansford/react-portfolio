@@ -13,7 +13,7 @@ const Resume = () => {
             content.
           </p>
           <a
-            href="https://docs.google.com/document/d/1gW3SE4o8T2k_OThO1Sr9AClvUblDHVoS/edit?usp=sharing&ouid=105632238560035934063&rtpof=true&sd=true"
+            href="https://docs.google.com/document/d/1lyi5STj3BZu0Z-mMTJG6raPViqMHxkyrLzhgkDwnG1M/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="btn btn-primary"
