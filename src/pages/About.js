@@ -17,7 +17,7 @@ return (
         >
           <Avatar src={bioImage} alt="profile" sx={{ width: 150, height: 210, margin: 2}}/>
         <Box>
-          Hey y'all! My name is Lindsey Lansford and I am a Software Developer with a passion to create intentional & unique applications.
+          Hey y'all! My name is Lindsey Lansford and I am a Software Developer with a passion to create simple, beautiful & unique applications.
         </Box>
       </Stack>
       <Stack
