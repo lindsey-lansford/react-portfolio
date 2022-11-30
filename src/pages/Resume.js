@@ -7,10 +7,9 @@ const Resume = () => {
       <div className="card text-center">
         <div className="card-header" id="resume-header">{/* Download my Resume */}</div>
         <div className="card-body">
-          <h5 className="card-title">Let's Create Together!</h5>
+          <h5 className="card-title">Want To Know More About Me?</h5>
           <p className="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
+            Checkout my resume by clicking the 'Download Here' button for a more indepth look into my work experience. Looking forward to chatting with you!
           </p>
           <a
             href="https://docs.google.com/document/d/1lyi5STj3BZu0Z-mMTJG6raPViqMHxkyrLzhgkDwnG1M/edit?usp=sharing"
