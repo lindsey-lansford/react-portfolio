@@ -41,10 +41,7 @@ const Contact = () => {
     <div className="contact-page-container">
       <h1 className="title">Contact Me</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-        quisquam rerum modi corrupti consequatur vero, omnis perferendis non
-        laudantium, tempora quibusdam facilis ex at neque odit? Fuga eos eius
-        itaque?
+        Do you have a vision that needs to be brought to life via web design? If so, you've come to the right place! Give me a shout and let's see if we would work well together.
       </p>
       <div className="contact-form">
         <form className="" ref={form} onSubmit={sendEmail}>
