@@ -2,7 +2,7 @@
 
 ## Description
 
-This application is a single-page, component based React portfolio. I used the npm package ```create-react-app``` to build the boiler plate template. For styling I used a bit of custom css, but mostly Bootstrap, and the app is mostly written in JavaScript.
+This application is a single-page, component based React portfolio. I used the npm package ```create-react-app``` to build the boiler plate template. For styling I used a bit of custom css & MaterialUI, and the app is written primarily in JavaScript.
 
 ## Table of Contents
 
