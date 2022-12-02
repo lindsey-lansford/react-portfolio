@@ -1,4 +1,5 @@
 import "../styles/projectCard.css";
+import * as React from 'react';
 
 const ProjectCard = (props) => {
   return (
@@ -10,21 +11,24 @@ const ProjectCard = (props) => {
           <div className="card-text">{props.description}</div>
           <div className="card-body">
             <a
-              href={props.prod}
-              target="_blank"
-              rel="noreferrer"
-              className="card-link"
-            >
-              Production Link
-            </a>
-            <a
               href={props.repo}
               target="_blank"
               rel="noreferrer"
               className="card-link"
             >
-              GitHub Repo
+              {props.isBlog ? "Blog" : "GitHub Repo"}
             </a>
+            
+            {!props.isBlog && props.prod && (
+          <a
+          href={props.prod}
+          target="_blank"
+          rel="noreferrer"
+          className="card-link"
+              >
+                {"Production Link"}
+        </a>
+        )}
           </div>
         </div>
       </div>
