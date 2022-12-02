@@ -1,4 +1,5 @@
 import ProjectCard from '../components/ProjectCard';
+import ProjectCard2 from '../components/Card';
 
 import HabitStack from "../images/habitstack.png";
 import Concert from "../images/concert.png";
@@ -82,6 +83,15 @@ const Portfolio = () => {
             id={project.id}
             key={project.id}
             />
+          // <ProjectCard2
+          //   title={project.title}
+          //   image={project.image}
+          //   description={project.description}
+          //   repo={project.repo}
+          //   prod={project.prod}
+          //   id={project.id}
+          //   key={project.id}
+          //   />
           ))}
       </div>
     </div>
