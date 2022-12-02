@@ -3,7 +3,7 @@ import * as React from 'react';
 
 const ProjectCard = (props) => {
   return (
-    <div className="container" id="portfolio-card">
+    <div className="container-sm" id="portfolio-card">
       <div className={`card text-center ${props.id}`}>
         <div className="card-header">{props.title}</div>
         <img src={props.image} alt={props.title} className="img-fluid" />
