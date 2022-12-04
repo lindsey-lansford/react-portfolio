@@ -74,16 +74,7 @@ const Portfolio = () => {
       <h1 className="title">Portfolio</h1>
       <div className="container">
         {projects.map((project) => (
-          <ProjectCard
-            title={project.title}
-            image={project.image}
-            description={project.description}
-            repo={project.repo}
-            prod={project.prod}
-            id={project.id}
-            key={project.id}
-            />
-          // <ProjectCard2
+          // <ProjectCard
           //   title={project.title}
           //   image={project.image}
           //   description={project.description}
@@ -92,6 +83,15 @@ const Portfolio = () => {
           //   id={project.id}
           //   key={project.id}
           //   />
+          <ProjectCard2
+            title={project.title}
+            image={project.image}
+            description={project.description}
+            repo={project.repo}
+            prod={project.prod}
+            id={project.id}
+            key={project.id}
+            />
           ))}
       </div>
     </div>
