@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
     <div className="container-sm" id="portfolio-card">
       <div className={`card text-center ${props.id}`}>
         <div className="card-header">{props.title}</div>
-        <img src={props.image} alt={props.title} className="img-fluid" />
+        <img src={props.image} alt={props.title} className="img-fluid rounded mx-auto" />
         <div className="card-body">
           <div className="card-text">{props.description}</div>
           <div className="card-body">
