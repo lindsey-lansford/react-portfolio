@@ -6,8 +6,8 @@
 }
 
 .card {
-  padding: 20px;
-  border: 0;
+  /* padding: 20px; */
+  
 }
 
 .img-fluid {
@@ -18,7 +18,7 @@
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   margin-top: 1rem;
 }
 
