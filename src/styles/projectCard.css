@@ -1,28 +1,46 @@
-.card-header {
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); */
+
+div .portfolio-page-container {
+  margin-bottom: 3rem;
+}
+
+/* .css-ahj2mt-MuiTypography-root {
+  margin: 0;
+  font-family: "Quicksand";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+
+.css-e784if-MuiTypography-root {
+  margin: 0;
+  font-family: "Quicksand";
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+} */
+
+/* .card-header {
   font-size: 1.7rem;
   font-weight: bold;
-  /* background-color: black;
-  color: white; */
-}
+  background-color: black;
+  color: white;
+} */
 
-.card {
+/* .card {
   align-items: center;
   
-}
+} */
 
 
-#portfolio-card {
+/* #portfolio-card {
   border-style: solid;
   border-width: 1px;
   border-color: black;
   border-radius: 15px;
   margin-top: 1rem;
-}
+} */
 
-.img-fluid {
-  max-width: 80%;
-}
 
-div .portfolio-page-container {
-  margin-bottom: 3rem;
-}
