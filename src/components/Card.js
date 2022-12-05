@@ -1,22 +1,22 @@
 // import "../styles/projectCard.css";
 import * as React from "react";
-import { Card, CardContent, CardMedia, Typography, Button, CardActionArea, CardActions } from "@mui/material";
+import { Card, CardContent, CardMedia, Typography, Button, CardActions } from "@mui/material";
 
 const ProjectCard2 = (props) => {
   return (
-    <div className="container" id="portfolio-card">
-      <Card>
-      <CardActionArea>
+    
+    <Card sx={{mt: ".7rem"}} variant="outlined">
+
         <CardContent>
-        <Typography gutterBottom variant="h4" component="div">
+        <Typography gutterBottom component="div">
           {props.title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2">
           {props.description}
         </Typography>
         </CardContent>
           <CardMedia component="img" image={props.image} alt={props.title} />
-          </CardActionArea>
+
           <CardActions>
           <Button
             href={props.repo}
@@ -32,18 +32,13 @@ const ProjectCard2 = (props) => {
               href={props.prod}
               target="_blank"
               rel="noreferrer"
-              variant="contained"
+              variant="outlined"
             >
               {"Live"}
             </Button>
           )}
           </CardActions>
       </Card>
-
-      <div className={`card text-center ${props.id}`}>
-
-      </div>
-    </div>
   );
 };
 
