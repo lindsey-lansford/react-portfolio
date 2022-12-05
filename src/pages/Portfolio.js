@@ -1,5 +1,4 @@
-import ProjectCard from '../components/ProjectCard';
-import ProjectCard2 from '../components/Card';
+import NewProjectCard from '../components/NewProjectCard';
 
 import HabitStack from "../images/habitstack.png";
 import Concert from "../images/concert.png";
@@ -83,7 +82,7 @@ const Portfolio = () => {
           //   id={project.id}
           //   key={project.id}
           //   />
-          <ProjectCard2
+          <NewProjectCard
             title={project.title}
             image={project.image}
             description={project.description}
