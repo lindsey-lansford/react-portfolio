@@ -1,11 +1,10 @@
 // import "../styles/projectCard.css";
 import * as React from "react";
-import { Card, CardContent, CardMedia, Typography, Button, CardActions } from "@mui/material";
+import {Grid, Card, CardContent, CardMedia, Typography, Button, CardActions } from "@mui/material";
 
 const ProjectCard2 = (props) => {
   return (
-    
-    <Card sx={{mt: ".7rem"}} variant="outlined">
+    <Card sx={{mt: ".7rem"}} variant="outlined" >
 
       <CardContent>
         <Typography gutterBottom component="div" variant="h5">
