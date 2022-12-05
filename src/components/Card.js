@@ -7,14 +7,15 @@ const ProjectCard2 = (props) => {
     
     <Card sx={{mt: ".7rem"}} variant="outlined">
 
-        <CardContent>
-        <Typography gutterBottom component="div">
+      <CardContent>
+        <Typography gutterBottom component="div" variant="h5">
           {props.title}
           </Typography>
-          <Typography variant="body2">
+          <Typography variant="body2" >
           {props.description}
         </Typography>
-        </CardContent>
+      </CardContent>
+      
           <CardMedia component="img" image={props.image} alt={props.title} />
 
           <CardActions>
@@ -22,6 +23,7 @@ const ProjectCard2 = (props) => {
             href={props.repo}
             target="_blank"
             rel="noreferrer"
+            size="small"
             variant="outlined"
           >
             {props.isBlog ? "Blog" : "GitHub"}
@@ -33,6 +35,7 @@ const ProjectCard2 = (props) => {
               target="_blank"
               rel="noreferrer"
               variant="outlined"
+              size="small"
             >
               {"Live"}
             </Button>
