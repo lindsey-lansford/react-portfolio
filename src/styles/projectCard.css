@@ -5,6 +5,7 @@ div .portfolio-page-container {
 }
 
 /* Project Title */
+/* local custom attribute */
 div .css-h93ljk-MuiTypography-root {
   margin: 0;
   font-family: "Quicksand" !important;
@@ -13,7 +14,7 @@ div .css-h93ljk-MuiTypography-root {
   line-height: 1.334;
   letter-spacing: 0em;
 }
-
+/* prod custom attribute */
 .css-t1nuxs {
   margin: 0px 0px 0.35em;
   font-family: "Quicksand" !important;
@@ -24,7 +25,7 @@ div .css-h93ljk-MuiTypography-root {
 }
 
 /* Project Description */
-
+/* local custom attribute */
 .css-e784if-MuiTypography-root {
   margin: 0;
   font-family: "Quicksand" !important;
@@ -33,7 +34,7 @@ div .css-h93ljk-MuiTypography-root {
   line-height: 1.43;
   letter-spacing: 0.01071em;
 }
-
+/* prod custom attribute */
 .css-68o8xu {
   margin: 0px;
   font-family: "Quicksand" !important;
@@ -44,6 +45,7 @@ div .css-h93ljk-MuiTypography-root {
 }
 
 /* Container for Btns */
+/* local custom attribute */
 .css-1t6e9jv-MuiCardActions-root {
   display: flex;
   align-items: center;
@@ -51,8 +53,13 @@ div .css-h93ljk-MuiTypography-root {
   justify-content: center !important;
 }
 
-
-
+/* prod custom attribute */
+.css-3zukih {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  justify-content: center !important;
+}
 
 
 
