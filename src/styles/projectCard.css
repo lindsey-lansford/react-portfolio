@@ -1,18 +1,20 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 div .portfolio-page-container {
   margin-bottom: 3rem;
 }
 
-/* .css-ahj2mt-MuiTypography-root {
+/* Project Title */
+.css-h93ljk-MuiTypography-root {
   margin: 0;
   font-family: "Quicksand";
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5;
-  letter-spacing: 0.00938em;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.334;
+  letter-spacing: 0em;
 }
 
+/* Project Description */
 .css-e784if-MuiTypography-root {
   margin: 0;
   font-family: "Quicksand";
@@ -20,8 +22,23 @@ div .portfolio-page-container {
   font-size: 0.875rem;
   line-height: 1.43;
   letter-spacing: 0.01071em;
-} */
+}
 
+/* Container for Btns */
+.css-1t6e9jv-MuiCardActions-root {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+/* OLD CSS FOR CUSTOM BOOTSTRAP COMPONENT */
 /* .card-header {
   font-size: 1.7rem;
   font-weight: bold;
