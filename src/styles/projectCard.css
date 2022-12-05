@@ -5,7 +5,7 @@ div .portfolio-page-container {
 }
 
 /* Project Title */
-.css-h93ljk-MuiTypography-root {
+div .css-h93ljk-MuiTypography-root {
   margin: 0;
   font-family: "Quicksand";
   font-weight: bold;
@@ -15,9 +15,10 @@ div .portfolio-page-container {
 }
 
 /* Project Description */
+
 .css-e784if-MuiTypography-root {
   margin: 0;
-  font-family: "Quicksand";
+  font-family: "Quicksand" !important;
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.43;
@@ -29,7 +30,7 @@ div .portfolio-page-container {
   display: flex;
   align-items: center;
   padding: 8px;
-  justify-content: center;
+  justify-content: center !important;
 }
 
 
