@@ -4,7 +4,7 @@ import {Card, CardContent, CardMedia, Typography, Button, CardActions } from "@m
 
 const NewProjectCard = (props) => {
   return (
-    <Card sx={{mt: "1rem"}} variant="outlined">
+    <Card sx={{mt: "1.2rem", border: 1}} variant="outlined">
 
       <CardContent>
         <Typography gutterBottom component="div" variant="h5">
