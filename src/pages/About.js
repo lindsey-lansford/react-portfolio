@@ -26,15 +26,10 @@ return (
         alignItems= "baseline"
       >
         <Box>
-        I am highly adaptable and love a challenge, big or small, I can do it all.
+        I am highly adaptable and love a challenge, big or small, I can do it all. My expertise lies in creating a vision, communicating the process to the client and executing within a given timeline.
         </Box>
-        {/* <Box>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            quod pariatur facilis eos sed sint tenetur nisi iste. Dolor eos
-            temporibus facere.
-        </Box> */}
         <Box>
-        My expertise lies in creating a vision, communicating the process to the client and executing within a given timeline.
+        HTML5 | CSS3 | JavaScript | Node.js | Express | ReactJS | SQL | MongoDB | Bootstrap | MaterialUI
         </Box>
       </Stack>
     </Container>
