@@ -1,7 +1,7 @@
 import * as React from 'react';
 import "../styles/about.css";
 import bioImage from "../images/profpic2.jpg";
-import { Container, Stack, Paper, Avatar, Box } from '@mui/material';
+import { Container, Stack, Typography, Avatar, Box } from '@mui/material';
 
 
 const About = () => {
@@ -12,7 +12,7 @@ return (
     <Container maxWidth="lg">
       <Stack
         direction="row"
-        spacing={{ xs: 1, sm: 2, md: 4, lg: 5 }}
+        spacing={{ xs: 2, sm: 2, md: 4, lg: 5 }}
         alignItems="center"
         >
           <Avatar src={bioImage} alt="profile" sx={{ width: 150, height: 210, margin: 2}}/>
@@ -21,7 +21,8 @@ return (
         </Box>
       </Stack>
       <Stack
-      direction="column"
+        display="flex"
+        direction="column"
         spacing={{ xs: 1, sm: 2, md: 4 }}
         alignItems= "baseline"
       >
