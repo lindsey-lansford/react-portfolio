@@ -38,6 +38,7 @@ textarea {
 div.contact-page-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 3rem;
 }
 
 .send-btn {
