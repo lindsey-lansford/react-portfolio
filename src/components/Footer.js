@@ -2,9 +2,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import '../styles/footer.css';
-import { Popover, Typography, Link, Icon } from "@mui/material";
-import * as React from 'react';
-import { LinkedInIcon, GitHubIcon, EmailIcon } from "@mui/icons-material"
+// import { Popover, Typography, Link, Icon } from "@mui/material";
+
+// import { LinkedInIcon, GitHubIcon, EmailIcon } from "@mui/icons-material"
 
 
 const Footer = () => {
