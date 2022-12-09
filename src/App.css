@@ -1,24 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Quicksand";
 }
-
-/* .App {
-  height: 100%;
-} */
 
 .content {
   max-width: 800px;
-  margin: 30px auto;
-  padding-bottom: 20px;
+  /* margin: 30px auto; */
+  /* padding-bottom: 20px; */
   padding-left: 20px;
   padding-right: 20px;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Quicksand";
 }
