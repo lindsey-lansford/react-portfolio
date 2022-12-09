@@ -11,6 +11,7 @@ import Resume from "./pages/Resume";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./App.css";
+// import { Box } from '@mui/material';
 
 function App() {
   return (
@@ -24,8 +25,12 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<About />} />
+            {/* <Route path="*" element={<About />} /> */}
           </Routes>
+          {/* <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
+                    py={'1.5rem'} width={'100%'}>
+        <span>&copy; 2022 🧿Lindsey Lansford | Software Developer</span>
+        </Box> */}
         </div>
         <Footer />
       </div>
