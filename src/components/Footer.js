@@ -44,7 +44,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <span className="footer-name">&copy; 2022 🧿Lindsey Lansford | Software Developer</span>
+        {/* <span className="footer-name">&copy; 2022 🧿Lindsey Lansford | Software Developer</span> */}
     </footer> 
     </div>
   );
