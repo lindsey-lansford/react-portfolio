@@ -1,5 +1,5 @@
 import NewProjectCard from '../components/NewProjectCard';
-
+// images for cards
 import HabitStack from "../images/habitstack.png";
 import Concert from "../images/concert.png";
 import WeatherDash from "../images/weather.png";
