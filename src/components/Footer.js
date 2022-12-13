@@ -27,7 +27,7 @@ const Footer = () => {
             <a
               href="https://github.com/lindsey-lansford"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <FontAwesomeIcon
                 icon={faGithub}
