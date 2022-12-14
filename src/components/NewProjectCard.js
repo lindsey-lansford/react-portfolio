@@ -1,46 +1,51 @@
 import "../styles/projectCard.css";
-import * as React from "react";
-import {Card, CardContent, CardMedia, Typography, Button, CardActions } from "@mui/material";
+import {
+  Card,
+  CardContent,
+  CardMedia,
+  Typography,
+  Button,
+  CardActions,
+} from "@mui/material";
 
 const NewProjectCard = (props) => {
   return (
-    <Card sx={{mt: "1.2rem", border: 1}} variant="outlined">
-
+    <Card sx={{ mt: "1.2rem", border: 1 }} variant="outlined">
       <CardContent>
         <Typography gutterBottom component="div" variant="h5">
           {props.title}
-          </Typography>
-          <Typography variant="body2" >
-          {props.description}
         </Typography>
+        <Typography variant="body2">{props.description}</Typography>
       </CardContent>
-      
-          <CardMedia component="img" image={props.image} alt={props.title} />
 
-          <CardActions>
+      <CardMedia component="img" image={props.image} alt={props.title} />
+
+      <CardActions>
+        <Button
+          href={props.repo}
+          target="_blank"
+          rel="noreferrer"
+          size="small"
+          variant="contained"
+          color="primary"
+        >
+          {props.isDuel ? "Github" : "GitHub"}
+        </Button>
+
+        {!props.isDuel && props.prod && (
           <Button
-            href={props.repo}
+            href={props.prod}
             target="_blank"
             rel="noreferrer"
+            variant="contained"
+            color="success"
             size="small"
-            variant="outlined"
           >
-            {props.isBlog ? "Blog" : "GitHub"}
+            {"Live"}
           </Button>
-
-          {!props.isBlog && props.prod && (
-            <Button
-              href={props.prod}
-              target="_blank"
-              rel="noreferrer"
-              variant="outlined"
-              size="small"
-            >
-              {"Live"}
-            </Button>
-          )}
-          </CardActions>
-      </Card>
+        )}
+      </CardActions>
+    </Card>
   );
 };
 
