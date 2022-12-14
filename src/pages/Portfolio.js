@@ -70,7 +70,7 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio-page-container">
-      <h1 className="title">Portfolio</h1>
+      <h1 className="title">Projects</h1>
       <div className="container">
         {projects.map((project) => (
           <NewProjectCard

@@ -42,7 +42,7 @@ const Navbar = () => {
               }
               to="/portfolio"
             >
-              Portfolio
+              Projects
             </NavLink>
             <NavLink
               className={({ isActive }) =>
