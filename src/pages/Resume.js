@@ -35,7 +35,7 @@ const Resume = () => {
         </div>
         <div className="card-footer text-muted" id="resume-footer"></div>
       </div>
-      {<Github/>}
+      {/* {<Github/>} */}
     </div>
   );
 };
