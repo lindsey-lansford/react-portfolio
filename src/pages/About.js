@@ -1,4 +1,3 @@
-import * as React from 'react';
 import "../styles/about.css";
 import bioImage from "../images/profpic2.jpg";
 import { Container, Stack, Grid, Avatar, Box } from '@mui/material';
