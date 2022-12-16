@@ -44,7 +44,7 @@ const Contact = () => {
         Do you have a vision that needs to be brought to life via web design? If so, you've come to the right place! Give me a shout and let's see if we would work well together.
       </p>
       <div className="contact-form">
-        <form className="" ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail}>
           <ul>
             <li>
               <input placeholder="Name" type="text" name="userName" required />
