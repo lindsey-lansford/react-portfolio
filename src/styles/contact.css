@@ -57,3 +57,8 @@ div.contact-page-container {
 div .contact-page-container {
   margin-bottom: 3rem;
 }
+
+ol,
+ul {
+  padding-left: 0rem !important;
+}
