@@ -1,11 +1,11 @@
 .profpic {
- border: solid #fff;
- border-width:6px 6px 20px 6px;
- box-shadow:1px 1px 5px #333; 
- -webkit-box-shadow:1px 1px 5px #333;
- -moz-box-shadow:1px 1px 5px #333;
- height:200px; 
- width:200px; 
+  border: solid #fff;
+  border-width:6px 6px 20px 6px;
+  box-shadow:1px 1px 5px #333; 
+  -webkit-box-shadow:1px 1px 5px #333;
+  -moz-box-shadow:1px 1px 5px #333;
+  height:200px; 
+  width:200px; 
 }
 
 .lower-section {

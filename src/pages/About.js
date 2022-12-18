@@ -14,9 +14,9 @@ return (
         spacing={{ xs: 1, sm: 2, md: 4, lg: 5 }}
         alignItems="center"
         >
-          <img className="profpic" src={bioImage} alt="profile" sx={{ width: 150, height: 210, margin: 2}}/>
+          <img className="profpic" src={bioImage} alt="profile"/>
         <Box>
-        <p>Hi y'all, my name is Lindsey and I'm a native Texan that has been living that Rocky Mountain High for 11 years and some change. I am based in Denver, CO and passionate about simple, clean web creation. I love photography, the great outdoors and breaking down challenges into smaller, more doable actions to reach the end goal.</p>
+        Hi y'all, my name is Lindsey and I'm a native Texan that has been living that Rocky Mountain High for 11 years and some change. I am based in Denver, CO and passionate about simple, clean web creation. I love photography, the great outdoors and breaking down challenges into smaller, more doable actions to reach the end goal.
         </Box>
       </Stack>
       <Stack
