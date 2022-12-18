@@ -1,6 +1,6 @@
 import "../styles/about.css";
 import bioImage from "../images/profpic2.jpg";
-import { Container, Stack, Grid, Avatar, Box } from '@mui/material';
+import { Container, Stack, Box } from '@mui/material';
 
 
 const About = () => {
@@ -14,7 +14,7 @@ return (
         spacing={{ xs: 1, sm: 2, md: 4, lg: 5 }}
         alignItems="center"
         >
-          <Avatar src={bioImage} alt="profile" sx={{ width: 150, height: 210, margin: 2}}/>
+          <img className="profpic" src={bioImage} alt="profile" sx={{ width: 150, height: 210, margin: 2}}/>
         <Box>
         <p>Hi y'all, my name is Lindsey and I'm a native Texan that has been living that Rocky Mountain High for 11 years and some change. I am based in Denver, CO and passionate about simple, clean web creation. I love photography, the great outdoors and breaking down challenges into smaller, more doable actions to reach the end goal.</p>
         </Box>
@@ -23,7 +23,8 @@ return (
         display="flex"
         direction="column"
         spacing={{ xs: 1, sm: 2, md: 4 }}
-        alignItems= "baseline"
+        alignItems="baseline"
+        className="lower-section"
       >
         <Box>
         I am highly adaptable and love a challenge, big or small, I can do it all. My expertise lies in creating a vision, communicating the process to the client and executing within a given timeline.
