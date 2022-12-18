@@ -18,7 +18,12 @@ const NewProjectCard = (props) => {
         <Typography variant="body2">{props.description}</Typography>
       </CardContent>
 
-      <CardMedia component="img" image={props.image} alt={props.title} />
+      <CardMedia
+        component="img"
+        image={props.image}
+        alt={props.title}
+
+      />
 
       <CardActions>
         <Button
