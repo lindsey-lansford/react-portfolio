@@ -24,5 +24,4 @@ yarn-debug.log*
 yarn-error.log*
 
 /archive
-/utils
 /data
