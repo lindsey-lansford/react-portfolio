@@ -70,7 +70,7 @@ const Contact = () => {
         start the conversation.
       </p>
       <div className="contact-form">
-        <form className="form">
+        <form>
           <ul>
             <li>
               <input
