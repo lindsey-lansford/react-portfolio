@@ -25,9 +25,7 @@ const Resume = () => {
         <div className="card-body">
           <h5 className="card-title">Want To Know More About Me?</h5>
           <p className="card-text">
-            Checkout my resume by clicking the 'Download Here' button for a more
-            indepth look into my work experience. Looking forward to chatting
-            with you!
+          Learn more about my work experience by clicking the 'Download Here' button to view my resume. I look forward to connecting with you and discussing your project further.
           </p>
           <button className="btn btn-primary" onClick={onButtonClick}>
             Download Here
