@@ -1,40 +1,62 @@
-import { useRef } from "react";
+import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../styles/contact.css";
-import validateEmail from "../utils/helper.js";
+// Here we import a helper function that will check if the email is valid
+import {validateEmail} from "../utils/helpers"
 
 const Contact = () => {
-  const form = useRef();
+  // Creating state variables for the fields in the form
+  // Also setting their initial values to an empty string
+  const [userEmail, setUserEmail] = useState('');
+  const [userName, setUserName] = useState('');
+  const [message, setMessage] = useState('');
+  const [errorMsg, setErrorMsg] = useState('');
 
-  const sendEmail = (e) => {
+  const handleInputChange = (e) => {
+    // Getting the value and name of the input which triggered the change
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    // Based on the input type, setting the state of either email, username, and message
+    if (inputType === 'userEmail') {
+      setUserEmail(inputValue);
+    } else if (inputType === 'userName') {
+      setUserName(inputValue);
+    } else {
+      setMessage(inputValue);
+    }
+  };
+
+  const handleFormSubmit = (e) => {
+    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_id",
-        "template_id",
-        form.current,
-        "user_id"
-      )
+    // First, check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+    if (!validateEmail(userEmail) || !userName) {
+      setErrorMsg('Check email format and input your name.');
+      // Want to exit out of this code block if something is wrong so that the user can correct it
+      return;
+    }
+
+    emailjs.sendForm("service_id", "template_id", e.target, "user_id")
       .then(
         (result) => {
           console.log(result.text);
           console.log("message sent");
+
+          // If everything goes according to plan, want to clear out the input after a successful submission.
+          setUserName('');
+          setUserEmail('');
+          setMessage('');
+
+          //if email submission was successful, then send msg.
+          alert(`Thank you ${userName}, your email was sent!`);
         },
         (error) => {
           console.log(error.text);
         }
       );
-
-    // emailjs.sendForm('gmail', 'template_8dj23rb', form.current, 'lzU8BubB8HMMbDOwb')
-    //   .then(() => {
-    //     alert("Message successfully sent!");
-    //     window.location.reload(false);
-    //   },
-    //   () => {
-    //     alert("Failed to send the message, please try again");
-    //   }
-    // );
   };
 
 
@@ -42,34 +64,59 @@ const Contact = () => {
     <div className="contact-page-container">
       <h1 className="title">Contact Me</h1>
       <p>
-      Are you looking for a web designer to help bring your vision to life? Look no further! I'd love to hear about your project and see if we're a good fit to work together. Please don't hesitate to contact me and let's start the conversation.
+        Are you looking for a web designer to help bring your vision to life?
+        Look no further! I'd love to hear about your project and see if we're a
+        good fit to work together. Please don't hesitate to contact me and let's
+        start the conversation.
       </p>
       <div className="contact-form">
-        <form ref={form} onSubmit={sendEmail}>
+        <form className="form">
           <ul>
             <li>
-              <input placeholder="Name" type="text" name="userName" required />
+              <input
+                value={userName}
+                name="userName"
+                type="text"
+                placeholder="Name"
+                onChange={handleInputChange}
+                required
+              />
             </li>
             <li>
               <input
-                placeholder="Email"
-                type="email"
+                value={userEmail}
                 name="userEmail"
+                type="email"
+                placeholder="Email"
+                onChange={handleInputChange}
                 required
               />
             </li>
             <li>
               <textarea
-                placeholder="Message"
+                value={message}
                 name="message"
+                type="text"
+                placeholder="Message"
+                onChange={handleInputChange}
                 required
-              ></textarea>
+              />
             </li>
             <li>
-              <input type="submit" className="send-btn" value="SEND" />
+              <input
+                type="submit"
+                className="send-btn"
+                value="SEND"
+                onSubmit={handleFormSubmit}
+              />
             </li>
           </ul>
         </form>
+        {/* {errorMsg && (
+        <div>
+          <p className="error-text">{errorMsg}</p>
+        </div>
+      )} */}
       </div>
     </div>
   );
