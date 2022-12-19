@@ -41,7 +41,7 @@ const Contact = () => {
     <div className="contact-page-container">
       <h1 className="title">Contact Me</h1>
       <p>
-        Do you have a vision that needs to be brought to life via web design? If so, you've come to the right place! Give me a shout and let's see if we would work well together.
+      Are you looking for a web designer to help bring your vision to life? Look no further! I'd love to hear about your project and see if we're a good fit to work together. Please don't hesitate to contact me and let's start the conversation.
       </p>
       <div className="contact-form">
         <form ref={form} onSubmit={sendEmail}>
