@@ -10,6 +10,7 @@ import {
 
 const NewProjectCard = (props) => {
   return (
+    
     <Card sx={{ mt: "1.2rem", border: 1 }} variant="outlined">
       <CardContent>
         <Typography gutterBottom component="div" variant="h5">
@@ -50,7 +51,8 @@ const NewProjectCard = (props) => {
           </Button>
         )}
       </CardActions>
-    </Card>
+      </Card>
+
   );
 };
 
