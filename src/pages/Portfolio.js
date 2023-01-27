@@ -13,13 +13,22 @@ import PolaroidAlbum from "../images/travelphotos.png";
 const Portfolio = () => {
   
   const projects = [
+      {
+        title: "My Travel Polaroids",
+        image: PolaroidAlbum,
+        description: "Playing with custom CSS/animation to mimic a photo album of polaroids.",
+        prod: "https://lindsey-lansford.github.io/Polaroid_Album/",
+        repo: "https://github.com/lindsey-lansford/Polaroid_Album",
+        id: 1,
+    },
+
     {
       title: "Habit Stack",
       image: HabitStack,
       description: "Full Stack application that aims to help users build, track and stick to habits through repetition and reward with engaging animations.",
       prod: "https://habitstack.herokuapp.com/",
       repo: "https://github.com/lindsey-lansford/habit-map/tree/main",
-      id: 1,
+      id: 2,
     },
     
     {
@@ -28,7 +37,7 @@ const Portfolio = () => {
       description: "An application for music lovers where they can plan their perfect concert getaway and enjoy some local cuisine.",
       prod: "https://lindsey-lansford.github.io/Concert_Concierge/",
       repo: "https://github.com/lindsey-lansford/Concert_Concierge",
-      id: 2,
+      id: 3,
     },
     
     {
@@ -37,7 +46,7 @@ const Portfolio = () => {
       description: "This web application's purpose is to generate the current weather and the future 5-day forecast by city.",
       prod: "https://lindsey-lansford.github.io/weather-forecast-dash/",
       repo: "https://github.com/lindsey-lansford/weather-forecast-dash",
-      id: 3,
+      id: 4,
     },
     
     {
@@ -46,7 +55,7 @@ const Portfolio = () => {
       description: "This web application's purpose is to generate a workday calendar that enables the user to keep up with their busy day.",
       prod: "https://lindsey-lansford.github.io/day-planner/",
       repo: "https://github.com/lindsey-lansford/day-planner",
-      id: 4,
+      id: 5,
     },
   
     {
@@ -55,7 +64,7 @@ const Portfolio = () => {
       description: "Backend MySQL Database Application",
       prod: "",
       repo: "https://github.com/lindsey-lansford/Employee-Tracker-DB",
-      id: 5,
+      id: 6,
     },
   
     {
@@ -64,15 +73,6 @@ const Portfolio = () => {
       description: "Backend MongoDB/Mongoose Application",
       prod: "",
       repo: "https://github.com/lindsey-lansford/social-network",
-      id: 6,
-    },
-
-    {
-      title: "My Travel Polaroids",
-      image: PolaroidAlbum,
-      description: "Playing with custom CSS/animation to mimic a photo album of polaroids.",
-      prod: "https://lindsey-lansford.github.io/Polaroid_Album/",
-      repo: "https://github.com/lindsey-lansford/Polaroid_Album",
       id: 7,
     },
   ];
