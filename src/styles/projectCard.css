@@ -61,6 +61,9 @@ div .css-t1nuxs {
   justify-content: center !important;
 }
 
+a:hover {
+  color:black !important;
+}
 
 
 /* OLD CSS FOR CUSTOM BOOTSTRAP COMPONENT */
