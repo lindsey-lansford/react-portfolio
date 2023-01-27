@@ -4,14 +4,14 @@ import Github from "../components/Github.js"
 const Resume = () => {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch("Lindsey_Lansford_Resume.pdf").then((response) => {
+    fetch("Lindsey_Lansford_ResumeZ.pdf").then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Lindsey_Lansford_Resume.pdf";
+        alink.download = "Lindsey_Lansford_ResumeZ.pdf";
         alink.click();
       });
     });
