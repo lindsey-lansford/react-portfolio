@@ -4,11 +4,11 @@ import HabitStack from "../images/habitstack.png";
 import Concert from "../images/concert.png";
 import WeatherDash from "../images/weather.png";
 import Planner from "../images/planner.png";
-import EmployeeList from "../images/employees.png";
+// import EmployeeList from "../images/employees.png";
 import EmployeeRoles from "../images/roles.png";
-import EmployeeStart from "../images/starting.png";
+// import EmployeeStart from "../images/starting.png";
 import SocialNetwork from "../images/social.png";
-
+import PolaroidAlbum from "../images/travelphotos.png";
 
 const Portfolio = () => {
   
@@ -65,6 +65,15 @@ const Portfolio = () => {
       prod: "",
       repo: "https://github.com/lindsey-lansford/social-network",
       id: 6,
+    },
+
+    {
+      title: "My Travel Polaroids",
+      image: PolaroidAlbum,
+      description: "Playing with custom CSS/animation to mimic a photo album of polaroids.",
+      prod: "https://lindsey-lansford.github.io/Polaroid_Album/",
+      repo: "https://github.com/lindsey-lansford/Polaroid_Album",
+      id: 7,
     },
   ];
 
