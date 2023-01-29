@@ -5,6 +5,10 @@ import '../styles/footer.css';
 
 
 const Footer = () => {
+
+  let date = new Date();
+  let year = date.getFullYear();
+
     return (  
     <div className="footer-container">
       <footer>
@@ -41,7 +45,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        {/* <span className="footer-name">&copy; 2022 🧿Lindsey Lansford | Software Developer</span> */}
+        <span className="footer-name">&copy; {year} 🧿Lindsey Lansford | Software Developer</span>
     </footer> 
     </div>
   );
