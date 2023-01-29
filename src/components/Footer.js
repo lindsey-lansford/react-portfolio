@@ -1,6 +1,5 @@
 // import {bounce} from "react-animations";
-
-import styled, {keyframes} from "styled-components";
+// import styled, {keyframes} from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
