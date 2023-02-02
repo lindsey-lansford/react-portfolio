@@ -1,4 +1,4 @@
-import {jello, tada} from "react-animations";
+import {jello, tada, hinge, rubberBand, wobble} from "react-animations";
 import styled, {keyframes} from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
