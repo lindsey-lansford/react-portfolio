@@ -7,7 +7,7 @@ import '../styles/footer.css';
 
 
 const Tada = styled.div`
-  animation: 2s ${keyframes `${hinge}`} infinite`;
+  animation: 2s ${keyframes `${tada}`} infinite`;
 // const rotate = keyframes`
 // from {
 //   transform: rotate(0deg);
