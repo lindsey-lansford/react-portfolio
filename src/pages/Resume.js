@@ -1,5 +1,21 @@
 import "../styles/resume.css";
-import Github from "../components/Github.js"
+// import Github from "../components/Github.js"
+//animation
+import styled, { keyframes } from "styled-components";
+
+const spin = keyframes`
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+`;
+
+const Spin = styled.div`
+  display: inline-block;
+  animation: ${spin} 1.5s 1 both normal;
+  font-size: calc(1.375rem + 1.5vw);
+  font-family: "Quicksand" !important;
+  font-weight: 500;
+  line-height: 1.2;
+`;
 
 const Resume = () => {
   const onButtonClick = () => {
@@ -19,7 +35,7 @@ const Resume = () => {
 
   return (
     <div className="resume-page-container">
-      <h1 className="title">Resume</h1>
+      <Spin className="title">Resume</Spin>
       <div className="card text-center">
       <div className="card-header" id="resume-header"/>
         <div className="card-body">
