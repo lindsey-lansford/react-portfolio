@@ -2,7 +2,23 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../styles/contact.css";
 // Here we import a helper function that will check if the email is valid
-import {validateEmail} from "../utils/helpers"
+import { validateEmail } from "../utils/helpers"
+//Animation
+// import styled, {keyframes} from "styled-components";
+
+// const spin = keyframes`
+//   from {transform:rotate(0deg);}
+//   to {transform:rotate(360deg);}
+// `;
+
+// const Spin = styled.div`
+//   display: inline-block;
+//   animation: ${spin} 1.5s 1 both normal;
+//   font-size: calc(1.375rem + 1.5vw);
+//   font-family: "Quicksand" !important;
+//   font-weight: 500;
+//   line-height: 1.2;
+// `;
 
 const Contact = () => {
   // Creating state variables for the fields in the form
@@ -58,7 +74,6 @@ const Contact = () => {
         }
       );
   };
-
 
   return (
     <div className="contact-page-container">
