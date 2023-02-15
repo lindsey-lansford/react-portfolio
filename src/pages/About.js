@@ -2,26 +2,28 @@ import "../styles/about.css";
 // import bioImage from "../images/profpic2.jpg";
 import bioImage2 from "../images/bioPic2.jpg";
 import { Container, Stack, Box } from '@mui/material';
-import styled, {keyframes} from "styled-components";
+//animation
+import styled, { keyframes } from "styled-components";
 
-
-const move = keyframes`
-  from {transform:rotateX(90deg);}
-  to {transform:rotateX(0deg);}
+const spin = keyframes`
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
 `;
 
-const Move = styled.div`
+const Spin = styled.div`
   display: inline-block;
-  animation: ${move} 0.6s linear;
-  font-size: 3rem;
+  animation: ${spin} 1.5s 1 both normal;
+  font-size: calc(1.375rem + 1.5vw);
   font-family: "Quicksand" !important;
+  font-weight: 500;
+  line-height: 1.2;
 `;
 
 const About = () => {
   return (
     <div className="about-page-container">
       {/* <h1 className="title">About Me</h1> */}
-      <Move className="title">About Me</Move>
+      <Spin className="title">About Me</Spin>
       <Container>
         <Stack
           direction="row"
