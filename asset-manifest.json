@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.eef50266.css",
-    "main.js": "/react-portfolio/static/js/main.8aee87e0.js",
+    "main.css": "/react-portfolio/static/css/main.e4b5cdd1.css",
+    "main.js": "/react-portfolio/static/js/main.8a22ef03.js",
     "static/media/bioPic2.jpg": "/react-portfolio/static/media/bioPic2.93f1504291769f5317b9.jpg",
     "static/media/concert.png": "/react-portfolio/static/media/concert.d33e46b67604e4a2ca0e.png",
     "static/media/travelphotos.png": "/react-portfolio/static/media/travelphotos.846b4814e05c7471c398.png",
-    "static/media/profpic2.jpg": "/react-portfolio/static/media/profpic2.59d24acdd3d461ade0e2.jpg",
     "static/media/social.png": "/react-portfolio/static/media/social.9d1a7aa339b7c0bd6db6.png",
     "static/media/weather.png": "/react-portfolio/static/media/weather.033191cf02b5863cf7e4.png",
     "static/media/planner.png": "/react-portfolio/static/media/planner.0b6ee95146ab54a4c15a.png",
     "static/media/roles.png": "/react-portfolio/static/media/roles.95fb6a29e3b2be770d54.png",
     "static/media/habitstack.png": "/react-portfolio/static/media/habitstack.3265f3d52403a2509f96.png",
     "index.html": "/react-portfolio/index.html",
-    "main.eef50266.css.map": "/react-portfolio/static/css/main.eef50266.css.map",
-    "main.8aee87e0.js.map": "/react-portfolio/static/js/main.8aee87e0.js.map"
+    "main.e4b5cdd1.css.map": "/react-portfolio/static/css/main.e4b5cdd1.css.map",
+    "main.8a22ef03.js.map": "/react-portfolio/static/js/main.8a22ef03.js.map"
   },
   "entrypoints": [
-    "static/css/main.eef50266.css",
-    "static/js/main.8aee87e0.js"
+    "static/css/main.e4b5cdd1.css",
+    "static/js/main.8a22ef03.js"
   ]
 }
