@@ -9,21 +9,42 @@ const spin = keyframes`
   from {transform:rotate(0deg);}
   to {transform:rotate(360deg);}
 `;
-
-const Spin = styled.div`
+const typing = keyframes`
+{
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+`;
+const blinking = keyframes`
+{
+  0%, 100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #CE2D4F;
+    }
+}
+`;
+  // animation: ${spin} 1.5s 1 both normal;
+const Animation = styled.div`
   display: inline-block;
-  animation: ${spin} 1.5s 1 both normal;
-  font-size: calc(1.375rem + 1.5vw);
-  font-family: "Quicksand" !important;
-  font-weight: 500;
-  line-height: 1.2;
+  animation: ${typing} 3s steps(16), ${blinking} 0.5s steps(1) infinite;
+  overflow: hidden; 
+  border-right: .15em solid #CE2D4F; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em;
 `;
 
 const About = () => {
   return (
     <div className="about-page-container">
       {/* <h1 className="title">About Me</h1> */}
-      <Spin className="title">About Me</Spin>
+      <Animation className="title">Hi, I'm Lindsey!</Animation>
       <Container>
         <Stack
           direction="row"
