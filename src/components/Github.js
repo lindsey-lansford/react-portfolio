@@ -22,7 +22,7 @@ const Github = () => {
 
   return (
     <div className="mb-2 github-comp">
-      <h1>My GitHub Activity</h1>
+      <h1>GitHub Activity</h1>
       <GitHubCalendar
         id="cal"
         username="lindsey-lansford"
