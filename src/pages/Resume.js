@@ -1,5 +1,5 @@
 import "../styles/resume.css";
-// import Github from "../components/Github.js"
+import Github from "../components/Github.js"
 //animation
 import styled, { keyframes } from "styled-components";
 
@@ -19,15 +19,15 @@ const Spin = styled.div`
 
 const Resume = () => {
   const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch("Lindsey_Lansford_ResumeZ.pdf").then((response) => {
+    // using JavaScript method to get PDF file
+    fetch("Resume_Feb_Web.pdf").then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Lindsey_Lansford_ResumeZ.pdf";
+        alink.download = "Resume_Feb_Web.pdf";
         alink.click();
       });
     });
@@ -49,7 +49,7 @@ const Resume = () => {
         </div>
         <div className="card-footer text-muted" id="resume-footer"></div>
       </div>
-      {/* {<Github/>} */}
+      {<Github/>}
     </div>
   );
 };
