@@ -6,7 +6,7 @@ const Github = () => {
   const selectLastHalfYear = (contributions) => {
     const currentYear = new Date().getFullYear();
     const currentMonth = new Date().getMonth();
-    const shownMonths = 9;
+    const shownMonths = 12;
 
     return contributions.filter((day) => {
       const date = new Date(day.date);
@@ -26,12 +26,13 @@ const Github = () => {
       <GitHubCalendar
         id="cal"
         username="lindsey-lansford"
-        transformData={selectLastHalfYear}
+        // transformData={selectLastHalfYear}
         blockSize={10}
+        hideTotalCount ={true}
       />
       <div className="github-btn">
         <Button
-          variant="dark"
+          variant="success"
           href="https://github.com/lindsey-lansford"
           target="_blank"
           rel="noopener noreferrer"
