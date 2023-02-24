@@ -48,13 +48,13 @@ const About = () => {
       <Container>
         <Stack
           direction="row"
-          spacing={{ xs: 1, sm: 2, md: 3, lg: 3 }}
+          spacing={{ xs: 1, sm: 2, md: 5, lg:7 }}
           alignItems="center"
         >
           <img className="profpic" src={bioImage2} alt="profile" />
-          <Box sx={{ml:8, mr:8 }}>
-              Hi there! My name is Lindsey and I'm a web developer based in
-              Denver, CO. I have a solid background in Product/Project
+          <Box>
+              Hi there! My name is Lindsey and I'm a Web Developer based in
+              Denver, CO. I have an extensive background in Product/Project
               Management & Digital Integrations, and joined the more technical
               side of the industry, coding.
           </Box>
@@ -62,7 +62,7 @@ const About = () => {
         <Stack
           display="flex"
           direction="column"
-          spacing={{ xs: 1, sm: 2, md: 4 }}
+          spacing={{ xs: 1, sm: 2, md: 3}}
           alignItems="baseline"
           className="lower-section"
         >
