@@ -52,7 +52,7 @@ const About = () => {
           alignItems="center"
         >
           <img className="profpic" src={bioImage2} alt="profile" />
-          <Box>
+          <Box sx={{ml:8, mr:8 }}>
               Hi there! My name is Lindsey and I'm a web developer based in
               Denver, CO. I have a solid background in Product/Project
               Management & Digital Integrations, and joined the more technical
