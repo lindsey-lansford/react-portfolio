@@ -51,7 +51,7 @@ const About = () => {
           spacing={{ xs: 1, sm: 2, md: 4, lg: 5 }}
           alignItems="center"
         >
-          <LazyLoadImage className="profpic" src={bioImage2} alt="profile" />
+          <img className="profpic" src={bioImage2} alt="profile" />
           <Box>
           Hi there! My name is Lindsey and I'm a full stack web developer based in Denver, CO. I have a passion for creating simple and clean websites, and love to photograph the great outdoors. I have 11 years of experience living in the Rocky Mountains, and have developed a strong ability to adapt to new challenges and break them down into smaller, more manageable tasks in order to achieve my goals.
           </Box>
