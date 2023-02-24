@@ -1,8 +1,8 @@
 import "../styles/about.css";
 // import bioImage from "../images/profpic2.jpg";
 import bioImage2 from "../images/bioPic2.jpg";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import { Container, Stack, Box } from '@mui/material';
+// import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Container, Stack, Box } from "@mui/material";
 //animation
 import styled, { keyframes } from "styled-components";
 
@@ -19,10 +19,10 @@ import styled, { keyframes } from "styled-components";
 // const Animation = styled.div`
 //   display: inline-block;
 //   animation: ${typing} 3s steps(16), ${blinking} 0.5s steps(1) infinite;
-//   overflow: hidden; 
-//   border-right: .15em solid #CE2D4F; 
-//   white-space: nowrap; 
-//   margin: 0 auto; 
+//   overflow: hidden;
+//   border-right: .15em solid #CE2D4F;
+//   white-space: nowrap;
+//   margin: 0 auto;
 //   letter-spacing: .15em;
 // `;
 
@@ -48,12 +48,15 @@ const About = () => {
       <Container>
         <Stack
           direction="row"
-          spacing={{ xs: 1, sm: 2, md: 4, lg: 5 }}
+          spacing={{ xs: 1, sm: 2, md: 3, lg: 3 }}
           alignItems="center"
         >
           <img className="profpic" src={bioImage2} alt="profile" />
           <Box>
-          Hi there! My name is Lindsey and I'm a full stack web developer based in Denver, CO. I have a passion for creating simple and clean websites, and love to photograph the great outdoors. I have 11 years of experience living in the Rocky Mountains, and have developed a strong ability to adapt to new challenges and break them down into smaller, more manageable tasks in order to achieve my goals.
+              Hi there! My name is Lindsey and I'm a web developer based in
+              Denver, CO. I have a solid background in Product/Project
+              Management & Digital Integrations, and joined the more technical
+              side of the industry, coding.
           </Box>
         </Stack>
         <Stack
@@ -64,11 +67,17 @@ const About = () => {
           className="lower-section"
         >
           <Box>
-          I pride myself on my ability to communicate effectively with clients and bring their vision to life. With my expertise in HTML5, CSS3, JavaScript, Node.js, Express, ReactJS, SQL, MongoDB, and Bootstrap, I am well-equipped to handle any project and deliver high-quality results within a given timeline.
+            I absolutely love problem solving and designing/building things that
+            will hopefully make one’s life less….chaotic? I pride myself on my
+            ability to communicate effectively with clients and bring their
+            vision to life.
           </Box>
-          {/* <Box>
-            HTML5 | CSS3 | JavaScript | Node.js | Express | ReactJS | SQL | MongoDB | Bootstrap | MaterialUI
-          </Box> */}
+          <Box>
+            {" "}
+            My expertise lies in HTML5, CSS3, JavaScript, Node, React, and
+            enjoyment for learning more, I am well-equipped to craft and deliver
+            high-quality, clean and responsive web applications.
+          </Box>
         </Stack>
       </Container>
     </div>
@@ -76,4 +85,3 @@ const About = () => {
 };
 
 export default About;
-
