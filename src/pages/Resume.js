@@ -37,7 +37,6 @@ const Resume = () => {
     <div className="resume-page-container">
       <Spin className="title">Resume</Spin>
       <div className="card text-center">
-      <div className="card-header" id="resume-header"/>
         <div className="card-body">
           <h5 className="card-title">Want To Know More About Me?</h5>
           <p className="card-text">
@@ -47,7 +46,6 @@ const Resume = () => {
             Download Here
           </button>
         </div>
-        <div className="card-footer text-muted" id="resume-footer"></div>
       </div>
       {<Github/>}
     </div>
