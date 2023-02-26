@@ -7,15 +7,17 @@ h2 {
   color: #f17a35;
 }
 
-/* .navbar-toggler {
+
+.navbar-toggler {
   transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1)
-} */
+}
+
+a.nav-link:hover {
+  color: #f17a35 important;
+}
 
 .nav-link.active {
-  color: #f17a35;
+  color: #f17a35 !important;
   font-weight: bold;
 }
 
-.nav-link:hover {
-  color: #f17a35;
-}
