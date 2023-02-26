@@ -1,16 +1,16 @@
 import { Link, NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faAddressCard,
-  faCircleUser,
-  faFolderOpen,
-  faHouse,
-} from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faAddressCard,
+//   faCircleUser,
+//   faFolderOpen,
+//   faHouse,
+// } from "@fortawesome/free-solid-svg-icons";
 import "../styles/nav.css"
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-md bg-light">
+    <nav className="navbar navbar-expand-md">
       <div className="container-fluid">
         <Link className="navbar-brand mb-0 h1" to="/">
           <h2 id="headerName">Lindsey Lansford</h2>
