@@ -2,21 +2,23 @@ div .resume-page-container {
   margin-bottom: 5rem;
 }
 
-#resume-header {
+.card {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+/* #resume-header {
   background-color: rgb(245, 241, 241);
 }
 
 #resume-footer {
   background-color: rgb(245, 241, 241);
-}
+} */
 
 .github-comp {
   margin-top: 4rem;
 }
 
-/* article.react-activity-calendar {
-  
-} */
 
 .github-btn {
   text-align: center;
