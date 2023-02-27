@@ -1,5 +1,6 @@
 import "../styles/about.css";
 import bioImage2 from "../images/bioPic2.jpg";
+import bioImageCom from "../images/bioPic2_compressed.jpg"
 // import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Container, Stack, Box } from "@mui/material";
 //animation
