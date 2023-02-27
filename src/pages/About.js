@@ -1,5 +1,4 @@
 import "../styles/about.css";
-// import bioImage from "../images/profpic2.jpg";
 import bioImage2 from "../images/bioPic2.jpg";
 // import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Container, Stack, Box } from "@mui/material";
