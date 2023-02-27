@@ -1,5 +1,5 @@
 import "../styles/about.css";
-import bioImage2 from "../images/bioPic2.jpg";
+// import bioImage2 from "../images/bioPic2.jpg";
 import bioImageCom from "../images/bioPic2_compressed.jpg"
 // import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Container, Stack, Box } from "@mui/material";
@@ -51,7 +51,7 @@ const About = () => {
           spacing={{ xs: 1, sm: 2, md: 5, lg:7 }}
           alignItems="center"
         >
-          <img className="profpic" src={bioImage2} alt="profile" />
+          <img className="profpic" src={bioImageCom} alt="profile" />
           <Box>
               Hi there! My name is Lindsey and I'm a Web Developer based in
               Denver, CO. I have an extensive background in Product/Project
