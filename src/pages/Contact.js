@@ -58,7 +58,7 @@ const Contact = () => {
       return;
     }
 
-    emailjs.sendForm(serviceID, templateID, e.target, userID)
+    emailjs.sendForm("service_vj0t154", "template_8dj23rb", e.target, "_Qqqrmr6HS17-AebK")
       .then(
         (result) => {
           console.log(result.text);
