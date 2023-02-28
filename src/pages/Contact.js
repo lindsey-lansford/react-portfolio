@@ -19,6 +19,9 @@ import { validateEmail } from "../utils/helpers"
 //   font-weight: 500;
 //   line-height: 1.2;
 // `;
+const userID= process.env.REACT_APP_USER_ID
+const templateID= process.env.REACT_APP_TEMPLATE_ID
+const serviceID= process.env.REACT_APP_SERVICE_ID
 
 const Contact = () => {
   // Creating state variables for the fields in the form
@@ -55,7 +58,7 @@ const Contact = () => {
       return;
     }
 
-    emailjs.sendForm("service_id", "template_id", e.target, "user_id")
+    emailjs.sendForm(serviceID, templateID, e.target, userID)
       .then(
         (result) => {
           console.log(result.text);
