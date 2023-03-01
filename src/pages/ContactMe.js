@@ -19,9 +19,8 @@ const Spin = styled.div`
 `;
 
 const ContactMe = () => {
+  const form = useRef();
 
-const form = useRef();
-  
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -53,7 +52,10 @@ const form = useRef();
         contact me and let's start the conversation.
       </p>
       <div className="contact-form">
-        <form ref={form} onSubmit={sendEmail}>
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+        >
           <ul>
             <li>
               <input name="user_name" type="text" placeholder="Name" required />
@@ -85,3 +87,52 @@ const form = useRef();
 };
 
 export default ContactMe;
+
+/* <div className="contact-page-container">
+      <Spin className="title">Contact Me</Spin>
+      <p>
+        Are you looking to build a custom website and need help bringing your
+        vision to life? Look no further! I'd love to hear about your project and
+        see if we're a good fit to work together. Please don't hesitate to
+        contact me and let's start the conversation.
+      </p>
+      <div>
+        <form className="needs-validation" ref={form} onSubmit={sendEmail}>
+          <div className="form-floating mb-3">
+            <input
+              name="user_name"
+              type="text"
+              className="form-control"
+              placeholder="Name"
+              id="floatingName"
+              required
+            />
+            <label for="floatingName">Name</label>
+          </div>
+          <div className="form-floating mb-3">
+            <input
+              name="user_email"
+              type="email"
+              className="form-control"
+              placeholder="Email"
+              id="floatingEmail"
+              required
+            />
+            <label for="floatingEmail">Email</label>
+          </div>
+          <div className="form-floating mb-3">
+            <textarea
+              name="message"
+              type="text"
+              className="form-control text-wrap"
+              placeholder="Message"
+              id="floatingMsg"
+              required
+              
+            />
+            <label for="floatingMsg">Message</label>
+          </div>
+          <input type="submit" className="send-btn" value="SEND" />
+        </form>
+      </div>
+    </div> */
