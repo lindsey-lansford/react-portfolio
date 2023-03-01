@@ -1,9 +1,22 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "../styles/contact.css";
+//animation
+import styled, { keyframes } from "styled-components";
 
+const spin = keyframes`
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+`;
 
-
+const Spin = styled.div`
+  display: inline-block;
+  animation: ${spin} 1.5s 1 both normal;
+  font-size: calc(1.375rem + 1.5vw);
+  font-family: "Quicksand" !important;
+  font-weight: 500;
+  line-height: 1.2;
+`;
 
 const ContactMe = () => {
 
@@ -32,7 +45,7 @@ const form = useRef();
 
   return (
     <div className="contact-page-container">
-      <h1 className="title">Contact Me</h1>
+      <Spin className="title">Contact Me</Spin>
       <p>
         Are you looking to build a custom website and need help bringing your
         vision to life? Look no further! I'd love to hear about your project and
