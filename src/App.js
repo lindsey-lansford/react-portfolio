@@ -7,7 +7,8 @@ import {
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+// import Contact from "./pages/Contact";
+import ContactMe from "./pages/ContactMe";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Navbar from "./components/Navbar";
@@ -27,7 +28,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/contact" element={<ContactMe />} />
             <Route path="*" element={<Navigate to="/"/>} />
           </Routes>
         </div>
