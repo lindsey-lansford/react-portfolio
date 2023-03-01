@@ -31,12 +31,6 @@ textarea {
   min-height: 150px;
 }
 
-div.contact-page-container {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 3rem;
-}
-
 .send-btn {
   font-size: .7rem;
   letter-spacing: 3px;
