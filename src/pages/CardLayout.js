@@ -97,9 +97,9 @@ const CardLayout = () => {
   const renderProject = (project, index) => {
     return (
       <Card style={{ width: '18rem' }} key={index} className="box">
-        <Card.Img src={project.image} alt={project.title} />
       <Card.Body>
-        <Card.Title>{project.title}</Card.Title>
+          <Card.Title>{project.title}</Card.Title>
+          <Card.Img src={project.image} alt={project.title} />
         <Card.Text>
           {project.description}
         </Card.Text>
@@ -109,13 +109,13 @@ const CardLayout = () => {
             rel="noreferrer"
             variant="primary">
             {project.isDuel ? "Github" : "Github"}
-          </Button>
+          </Button>{' '}
           {!project.isDuel && project.prod && (
             <Button
             href={project.prod}
             target="_blank"
             rel="noreferrer"
-            variant="primary">
+            variant="success">
             {"Live"}
             </Button>
           )}
