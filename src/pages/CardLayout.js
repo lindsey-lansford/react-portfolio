@@ -96,8 +96,8 @@ const CardLayout = () => {
 
   const renderProject = (project, index) => {
     return (
-      <Card style={{ width: '18rem' }} key={index}>
-        <Card.Img variant="top" src={project.image} alt={project.title} />
+      <Card style={{ width: '18rem' }} key={index} className="box">
+        <Card.Img src={project.image} alt={project.title} />
       <Card.Body>
         <Card.Title>{project.title}</Card.Title>
         <Card.Text>
