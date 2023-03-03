@@ -1,5 +1,4 @@
 import "../styles/projectCard.css";
-import { styled } from '@mui/material/styles';
 import {
   Card,
   CardContent,
@@ -7,9 +6,6 @@ import {
   Typography,
   Button,
   CardActions,
-  Box,
-  Grid,
-  Paper
 } from "@mui/material";
 
 const NewProjectCard = (props) => {
