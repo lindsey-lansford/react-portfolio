@@ -8,11 +8,11 @@ import {
   CardActions,
   Grid
 } from "@mui/material";
+import { Grid3x3 } from "@mui/icons-material";
 
 const NewProjectCard = (props) => {
   return (
-    
-    // <Card sx={{ mt: "1.2rem", border: 1 }} variant="outlined">
+    <Grid3x3>
     <Card raised
       sx={{ maxWidth: 280, margin: "0 auto", padding: "0.1em"}}>
       <CardContent>
@@ -56,7 +56,7 @@ const NewProjectCard = (props) => {
         )}
       </CardActions>
       </Card>
-
+      </Grid3x3>
   );
 };
 
