@@ -30,15 +30,15 @@ const Spin = styled.div`
 `;
 
 const Portfolio = () => {
-// array of projects
+  // array of projects
   const projects = [
-      {
-        title: "My Travel Polaroids",
-        image: PolaroidAlbum,
-        description: "Playing with custom CSS/animation to mimic a photo album of polaroids.",
-        prod: "https://lindsey-lansford.github.io/Polaroid_Album/",
-        repo: "https://github.com/lindsey-lansford/Polaroid_Album",
-        id: 1,
+    {
+      title: "My Travel Polaroids",
+      image: PolaroidAlbum,
+      description: "Playing with custom CSS/animation to mimic a photo album of polaroids.",
+      prod: "https://lindsey-lansford.github.io/Polaroid_Album/",
+      repo: "https://github.com/lindsey-lansford/Polaroid_Album",
+      id: 1,
     },
 
     {
@@ -96,73 +96,65 @@ const Portfolio = () => {
     },
   ];
 
+
   const renderLayout = (project, index) => {
-    <Card key={index} 
-            raised
-            sx={{ maxWidth: 280, margin: "0 auto", padding: "0.1em" }}
+    return (
+      <Card sx={{ maxWidth: 280, margin: "0 auto", padding: "0.1em" }} key={index}
+        raised className="box"
+      >
+        <CardContent>
+          <Typography gutterBottom component="div" variant="h5">
+            {project.title}
+          </Typography>
+          <Typography variant="body2">{project.description}</Typography>
+        </CardContent>
+
+        <CardMedia
+          component="img"
+          height="250"
+          image={project.image}
+          alt={project.title}
+          sx={{ objectFit: "contain" }}
+        />
+
+        <CardActions>
+          <Button
+            href={project.repo}
+            target="_blank"
+            rel="noreferrer"
+            size="small"
+            variant="contained"
+            color="primary"
           >
-            <CardContent>
-              <Typography gutterBottom component="div" variant="h5">
-                {project.title}
-              </Typography>
-              <Typography variant="body2">{project.description}</Typography>
-            </CardContent>
+            {project.isDuel ? "Github" : "GitHub"}
+          </Button>
 
-            <CardMedia
-              component="img"
-              height="250"
-              image={project.image}
-              alt={project.title}
-              sx={{ objectFit: "contain" }}
-            />
-
-            <CardActions>
-              <Button
-                href={project.repo}
-                target="_blank"
-                rel="noreferrer"
-                size="small"
-                variant="contained"
-                color="primary"
-              >
-                {project.isDuel ? "Github" : "GitHub"}
-              </Button>
-
-              {!project.isDuel && project.prod && (
-                <Button
-                  href={project.prod}
-                  target="_blank"
-                  rel="noreferrer"
-                  variant="contained"
-                  color="success"
-                  size="small"
-                >
-                  {"Live"}
-                </Button>
-              )}
-            </CardActions>
-          </Card>
+          {!project.isDuel && project.prod && (
+            <Button
+              href={project.prod}
+              target="_blank"
+              rel="noreferrer"
+              variant="contained"
+              color="success"
+              size="small"
+            >
+              {"Live"}
+            </Button>
+          )}
+        </CardActions>
+      </Card>
+    )
   };
 
   return (
     <div className="portfolio-page-container">
       <Spin className="title">Projects</Spin>
-      <div className="container">
-        {projects.map((project) => (
-          <NewProjectCard
-            title={project.title}
-            image={project.image}
-            description={project.description}
-            repo={project.repo}
-            prod={project.prod}
-            id={project.id}
-            key={project.id}
-            />
-          ))}
-      </div>
+      <Grid>
+        {projects.map(renderLayout)}
+      </Grid>
     </div>
   )
-} 
+};
 
 export default Portfolio;
 
