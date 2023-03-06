@@ -11,7 +11,7 @@ import {
 
 const NewProjectCard = (props) => {
   return (
-    <Grid>
+    <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
     <Card raised
       sx={{ maxWidth: 280, margin: "0 auto", padding: "0.1em"}}>
       <CardContent>
