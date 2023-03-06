@@ -65,7 +65,10 @@ a:hover {
   color:black !important;
 }
 
-.grid {
+
+
+/* CSS for ./pages/CardLayout.js */
+/* .grid {
   min-height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -78,9 +81,11 @@ a:hover {
 
 .box {
   margin: 20px;
-}
+} */
 
-/* OLD CSS FOR CUSTOM BOOTSTRAP COMPONENT */
+
+
+/* CSS FOR ./components/ProjectCardBS.js */
 /* .card-header {
   font-size: 1.7rem;
   font-weight: bold;
