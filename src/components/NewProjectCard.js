@@ -1,13 +1,5 @@
 import "../styles/projectCard.css";
-import {
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-  Button,
-  CardActions,
-  Grid,
-} from "@mui/material";
+import { Card, CardContent, CardMedia, Typography, Button, CardActions, Grid } from "@mui/material";
 
 const NewProjectCard = (props) => {
   return (
