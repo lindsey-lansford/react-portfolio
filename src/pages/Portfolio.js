@@ -29,7 +29,7 @@ const Spin = styled.div`
 `;
 
 const Portfolio = () => {
-  
+// array of projects
   const projects = [
       {
         title: "My Travel Polaroids",
@@ -116,3 +116,23 @@ const Portfolio = () => {
 } 
 
 export default Portfolio;
+
+
+// return (
+//   <div className="portfolio-page-container">
+//     <Spin className="title">Projects</Spin>
+//     <div className="container">
+//       {projects.map((project) => (
+//         <NewProjectCard
+//           title={project.title}
+//           image={project.image}
+//           description={project.description}
+//           repo={project.repo}
+//           prod={project.prod}
+//           id={project.id}
+//           key={project.id}
+//           />
+//         ))}
+//     </div>
+//   </div>
+// )
