@@ -8,7 +8,6 @@ import {
   CardActions,
   Grid
 } from "@mui/material";
-import { Grid3x3 } from "@mui/icons-material";
 
 const NewProjectCard = (props) => {
   return (
