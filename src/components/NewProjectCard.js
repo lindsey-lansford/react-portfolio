@@ -6,12 +6,15 @@ import {
   Typography,
   Button,
   CardActions,
+  Grid
 } from "@mui/material";
 
 const NewProjectCard = (props) => {
   return (
     
-    <Card sx={{ mt: "1.2rem", border: 1 }} variant="outlined">
+    // <Card sx={{ mt: "1.2rem", border: 1 }} variant="outlined">
+    <Card raised
+      sx={{ maxWidth: 280, margin: "0 auto", padding: "0.1em"}}>
       <CardContent>
         <Typography gutterBottom component="div" variant="h5">
           {props.title}
@@ -21,9 +24,10 @@ const NewProjectCard = (props) => {
 
       <CardMedia
         component="img"
+        height="250"
         image={props.image}
         alt={props.title}
-
+        sx={{ objectFit: "contain" }}
       />
 
       <CardActions>
