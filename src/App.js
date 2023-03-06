@@ -7,10 +7,9 @@ import {
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-// import Contact from "./pages/Contact";
 import ContactMe from "./pages/ContactMe";
-// import Portfolio from "./pages/Portfolio";
-import Portfolio from "./pages/CardLayout";
+import Portfolio from "./pages/Portfolio";
+// import Portfolio from "./pages/CardLayout";
 import Resume from "./pages/Resume";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -30,7 +29,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<CardLayout />} />
             <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<ContactMe />} />
+            <Route path="/contact" element={<Portfolio />} />
             <Route path="*" element={<Navigate to="/"/>} />
           </Routes>
         </div>
