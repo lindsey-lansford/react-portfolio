@@ -12,6 +12,8 @@ import {
 const NewProjectCard = (props) => {
   return (
     <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+      {Array.from(Array(6)).map((_, index) => (
+          <Grid item xs={2} sm={4} md={4} key={index}>
     <Card raised
       sx={{ maxWidth: 280, margin: "0 auto", padding: "0.1em"}}>
       <CardContent>
@@ -54,7 +56,9 @@ const NewProjectCard = (props) => {
           </Button>
         )}
       </CardActions>
-      </Card>
+          </Card>
+          </Grid>
+        ))}
       </Grid>
   );
 };
