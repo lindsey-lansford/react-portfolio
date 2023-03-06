@@ -1,5 +1,6 @@
-import NewProjectCard from '../components/NewProjectCard';
-
+// import NewProjectCard from '../components/NewProjectCard';
+import "../styles/projectCard.css";
+import { Card, CardContent, CardMedia, Typography, Button, CardActions, Grid } from "@mui/material";
 // project images
 import HabitStack from "../images/habitstack.png";
 import Concert from "../images/concert.png";
@@ -94,6 +95,54 @@ const Portfolio = () => {
       id: 7,
     },
   ];
+
+  const renderLayout = (project, index) => {
+    <Card key={index} 
+            raised
+            sx={{ maxWidth: 280, margin: "0 auto", padding: "0.1em" }}
+          >
+            <CardContent>
+              <Typography gutterBottom component="div" variant="h5">
+                {project.title}
+              </Typography>
+              <Typography variant="body2">{project.description}</Typography>
+            </CardContent>
+
+            <CardMedia
+              component="img"
+              height="250"
+              image={project.image}
+              alt={project.title}
+              sx={{ objectFit: "contain" }}
+            />
+
+            <CardActions>
+              <Button
+                href={project.repo}
+                target="_blank"
+                rel="noreferrer"
+                size="small"
+                variant="contained"
+                color="primary"
+              >
+                {project.isDuel ? "Github" : "GitHub"}
+              </Button>
+
+              {!project.isDuel && project.prod && (
+                <Button
+                  href={project.prod}
+                  target="_blank"
+                  rel="noreferrer"
+                  variant="contained"
+                  color="success"
+                  size="small"
+                >
+                  {"Live"}
+                </Button>
+              )}
+            </CardActions>
+          </Card>
+  };
 
   return (
     <div className="portfolio-page-container">
