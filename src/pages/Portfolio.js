@@ -1,5 +1,6 @@
 import NewProjectCard from '../components/NewProjectCard';
-// images for cards
+
+// project images
 import HabitStack from "../images/habitstack.png";
 import Concert from "../images/concert.png";
 import WeatherDash from "../images/weather.png";
@@ -9,6 +10,7 @@ import EmployeeRoles from "../images/roles.png";
 // import EmployeeStart from "../images/starting.png";
 import SocialNetwork from "../images/social.png";
 import PolaroidAlbum from "../images/travelphotos.png";
+
 //Animation
 import styled, {keyframes} from "styled-components";
 
