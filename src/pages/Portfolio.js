@@ -99,8 +99,8 @@ const Portfolio = () => {
 
   const renderLayout = (project, index) => {
     return (
-      <Card sx={{ maxWidth: 280, margin: "0 auto", padding: "0.1em" }} key={index}
-        raised className="box"
+      <Card sx={{ maxWidth: 280, margin: "1rem", padding: "0.1em" }} key={index}
+        raised
       >
         <CardContent>
           <Typography gutterBottom component="div" variant="h5">
