@@ -67,16 +67,8 @@ a:hover {
 
 .project-grid {
   margin-top: 1rem !important;
+  justify-content: center !important;
 }
-
-
-.css-1xgjpwf-MuiGrid-root {
-    width: calc(100% + 24px);
-    margin-left: 0 !important;
-    justify-content: center;
-}
-
-
 
 
 
