@@ -150,14 +150,14 @@ const Portfolio = () => {
   return (
     <div className="portfolio-page-container">
       <Spin className="title">Projects</Spin>
-      <Grid className="project-grid"
+      <Grid
+      className="project-grid"
       container
       spacing={{ xs: 2, md: 3 }}
-      columns={{ xs: 4, sm: 8, md: 12 }}
-    >
+      columns={{ xs: 4, sm: 8, md: 12 }}>
 
         {projects.map(renderLayout)}
-        </Grid>
+      </Grid>
 
     </div>
   )
