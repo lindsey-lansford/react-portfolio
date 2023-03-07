@@ -65,6 +65,9 @@ a:hover {
   color:black !important;
 }
 
+.project-grid {
+  margin-top: 1rem;
+}
 
 
 /* CSS for ./pages/CardLayout.js */
