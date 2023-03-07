@@ -70,6 +70,23 @@ a:hover {
 }
 
 
+.css-1xgjpwf-MuiGrid-root {
+    width: calc(100% + 24px);
+    margin-left: 0 !important;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* CSS for ./pages/CardLayout.js */
 /* .grid {
   min-height: 100%;
