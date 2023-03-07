@@ -99,7 +99,8 @@ const Portfolio = () => {
 
   const renderLayout = (project, index) => {
     return (
-      <Card sx={{ maxWidth: 280, margin: "1rem", padding: "0.1em" }} key={index}
+      <Card sx={{ maxWidth: 350, margin: "1rem", padding: "0.1em" }}
+        key={index}
         raised
       >
         <CardContent>
@@ -149,15 +150,15 @@ const Portfolio = () => {
   return (
     <div className="portfolio-page-container">
       <Spin className="title">Projects</Spin>
-      <Grid
+      <Grid className="project-grid"
       container
       spacing={{ xs: 2, md: 3 }}
       columns={{ xs: 4, sm: 8, md: 12 }}
     >
 
         {projects.map(renderLayout)}
+        </Grid>
 
-      </Grid>
     </div>
   )
 };
