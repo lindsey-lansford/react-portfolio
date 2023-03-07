@@ -1,17 +1,17 @@
 // images for cards
-import HabitStack from "../images/habitstack.png";
-import Concert from "../images/concert.png";
-import WeatherDash from "../images/weather.png";
-import Planner from "../images/planner.png";
-import EmployeeRoles from "../images/roles.png";
-import SocialNetwork from "../images/social.png";
-import PolaroidAlbum from "../images/travelphotos.png";
+// import HabitStack from "../images/habitstack.png";
+// import Concert from "../images/concert.png";
+// import WeatherDash from "../images/weather.png";
+// import Planner from "../images/planner.png";
+// import EmployeeRoles from "../images/roles.png";
+// import SocialNetwork from "../images/social.png";
+// import PolaroidAlbum from "../images/travelphotos.png";
 //react bootstrap components
-import { Card, Button } from "react-bootstrap";
+// import { Card, Button } from "react-bootstrap";
 //custom css
-import "../styles/projectCard.css";
+// import "../styles/projectCard.css";
 //Animation
-import styled, {keyframes} from "styled-components";
+// import styled, {keyframes} from "styled-components";
 
 // const spin = keyframes`
 //   from {transform:rotate(0deg);}
