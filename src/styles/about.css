@@ -1,8 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 
+.profpic {
+  border: solid #fff;
+  border-width:6px 6px 20px 6px;
+  box-shadow:1px 1px 5px #333; 
+  -webkit-box-shadow:1px 1px 5px #333;
+  -moz-box-shadow:1px 1px 5px #333;
+  height:200px !important; 
+  max-width:200px !important;
+  margin-top: 1rem;
+}
 
-.top {
+.lower-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+
+/* classes for the simple layout */
+
+/* .top {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -16,17 +36,7 @@
   padding-bottom: 1rem;
 }
 
-.profpic {
-  border: solid #fff;
-  border-width:6px 6px 20px 6px;
-  box-shadow:1px 1px 5px #333; 
-  -webkit-box-shadow:1px 1px 5px #333;
-  -moz-box-shadow:1px 1px 5px #333;
-  height:200px !important; 
-  max-width:200px !important;
-}
-
 .bio-right {
   width: 500px;
   padding: 2rem;
-}
+} */
