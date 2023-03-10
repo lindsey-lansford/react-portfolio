@@ -42,7 +42,7 @@ const About = () => {
         <Stack
           display="flex"
           direction="column"
-          spacing={{ xs: 2, sm: 3, md: 3}}
+          spacing={{ xs: 2, sm: 3, md: 3, lg: 6}}
           alignItems="baseline"
           className="lower-section"
         >
