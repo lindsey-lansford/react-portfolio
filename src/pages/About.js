@@ -25,42 +25,17 @@ const About = () => {
   return (
     <div className="about-page-container">
       <Spin className="title">About Me</Spin>
-      <Container>
-        <Stack
-          direction="row"
-          spacing={{ xs: 1, sm: 2, md: 5, lg:7 }}
-          alignItems="center"
-        >
-          <img className="profpic" src={bioImageCom} alt="profile" />
-          <Box>
-              Hi there! My name is Lindsey and I'm a Web Developer based in
-              Denver, CO. I have an extensive background in Product/Project
-              Management & Digital Integrations, and joined the more technical
-              side of the industry, coding.
-          </Box>
-        </Stack>
-        <Stack
-          display="flex"
-          direction="column"
-          spacing={{ xs: 1, sm: 2, md: 3}}
-          alignItems="baseline"
-          className="lower-section"
-        >
-          <Box>
-            I absolutely love problem solving and designing/building things that
-            will hopefully make one’s life less….chaotic? I pride myself on my
-            ability to communicate effectively with clients and bring their
-            vision to life.
-          </Box>
-          <Box>
-            {" "}
-            My expertise lies in HTML5, CSS3, JavaScript, Node, React, and
-            enjoyment for learning more, I am well-equipped to craft and deliver
-            high-quality, clean and responsive web applications.
-          </Box>
-        </Stack>
-      </Container>
+        <div className="top">
+        <img className="profpic" src={bioImageCom} alt="profile" />
+        <p className="bio-right">
+        Hi there! My name is Lindsey and I'm a Web Developer based in Denver, CO. I have an extensive background in Product/Project Management & Digital Integrations, and joined the more technical side of the industry, coding.
+        </p>
     </div>
+        <div className="bottom">
+        <p>I absolutely love problem solving and designing/building things that will hopefully make one’s life less….chaotic? I pride myself on my ability to communicate effectively with clients and bring their vision to life.</p>
+          <p>My expertise lies in HTML5, CSS3, JavaScript, Node, React, and enjoyment for learning more, I am well-equipped to craft and deliver high-quality, clean and responsive web applications.</p>
+    </div>
+      </div>
   );
 };
 
