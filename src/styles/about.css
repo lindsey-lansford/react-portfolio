@@ -1,18 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
 .profpic {
   border: solid #fff;
   border-width:6px 6px 20px 6px;
   box-shadow:1px 1px 5px #333; 
   -webkit-box-shadow:1px 1px 5px #333;
   -moz-box-shadow:1px 1px 5px #333;
-  height:200px; 
-  width:200px;
-  margin-top: 20px;
+  height:200px !important; 
+  max-width:200px !important;
 }
 
-.lower-section {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
+.bio-right {
+  width: 500px;
+  padding: 2rem;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
