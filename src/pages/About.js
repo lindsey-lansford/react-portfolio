@@ -28,7 +28,7 @@ const About = () => {
       <Container>
         <Stack
           direction="row"
-          spacing={{ xs: 2, sm: 3, md: 5, lg:7 }}
+          spacing={{ xs: 2, sm: 3, md: 5, lg: 6 }}
           alignItems="center"
         >
           <img className="profpic" src={bioImageCom} alt="profile" />
@@ -42,7 +42,7 @@ const About = () => {
         <Stack
           display="flex"
           direction="column"
-          spacing={{ xs: 1, sm: 2, md: 3}}
+          spacing={{ xs: 2, sm: 3, md: 3}}
           alignItems="baseline"
           className="lower-section"
         >
