@@ -23,7 +23,7 @@ const Spin = styled.div`
 
 const About = () => {
   return (
-    <div className="about-page-container">
+    <div className="page-container">
       <Spin className="title">About Me</Spin>
       <Container>
         <Stack
