@@ -34,7 +34,7 @@ const Resume = () => {
   };
 
   return (
-    <div className="resume-page-container">
+    <div className="page-container">
       <Spin className="title">Resume</Spin>
       <div className="card text-center">
         <div className="card-body">
