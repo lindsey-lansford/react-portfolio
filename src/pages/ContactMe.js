@@ -43,7 +43,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="contact-page-container">
+    <div className="page-container">
       <Spin className="title">Contact Me</Spin>
       <p>
         Are you looking to build a custom website and need help bringing your
