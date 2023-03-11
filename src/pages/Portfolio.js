@@ -148,7 +148,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="portfolio-page-container">
+    <div className="page-container">
       <Spin className="title">Projects</Spin>
       <Grid container
       className="project-grid"
