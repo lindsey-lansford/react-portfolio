@@ -58,7 +58,11 @@ const ContactMe = () => {
         >
           <ul>
             <li>
-              <input name="user_name" type="text" placeholder="Name" required />
+              <input
+                name="user_name"
+                type="text" placeholder="Name"
+                required
+              />
             </li>
             <li>
               <input
@@ -77,7 +81,9 @@ const ContactMe = () => {
               />
             </li>
             <li>
-              <input type="submit" className="send-btn" value="SEND" />
+              <input
+                type="submit" className="send-btn" value="SEND"
+              />
             </li>
           </ul>
         </form>
@@ -88,7 +94,7 @@ const ContactMe = () => {
 
 export default ContactMe;
 
-/* <div className="contact-page-container">
+/* <div className="page-container">
       <Spin className="title">Contact Me</Spin>
       <p>
         Are you looking to build a custom website and need help bringing your
