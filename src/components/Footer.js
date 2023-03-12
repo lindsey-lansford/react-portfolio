@@ -1,4 +1,4 @@
-import {jello, tada, hinge, rubberBand, wobble} from "react-animations";
+import { tada, swing, headShake} from "react-animations";
 import styled, {keyframes} from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -7,7 +7,7 @@ import '../styles/footer.css';
 
 
 const Tada = styled.div`
-  animation: 2s ${keyframes `${tada}`} infinite`;
+  animation: 2.5s ${keyframes `${headShake}`} infinite`;
 // const rotate = keyframes`
 // from {
 //   transform: rotate(0deg);
