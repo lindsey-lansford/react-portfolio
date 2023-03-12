@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md">
       <div className="container-fluid">
-        <Link className="navbar-brand mb-0 h1" to="/">
-          <h2 id="headerName">Lindsey Lansford</h2>
+        <Link className="navbar-brand" to="/">
+          <h1 id="headerName">Lindsey Lansford</h1>
         </Link>
         <button
           className="navbar-toggler"
