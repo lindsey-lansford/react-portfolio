@@ -11,3 +11,7 @@
   text-align: center;
   margin: .7rem;
 }
+
+.react-activity-calendar {
+  max-width: none !important;
+}
