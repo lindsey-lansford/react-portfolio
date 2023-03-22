@@ -9,7 +9,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import ContactMe from "./pages/ContactMe";
 import Portfolio from "./pages/Portfolio";
-// import CardLayout from "./pages/CardLayout";
 import Resume from "./pages/Resume";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
