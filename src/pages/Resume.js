@@ -20,14 +20,14 @@ const Spin = styled.div`
 const Resume = () => {
   const onButtonClick = () => {
     // using JavaScript method to get PDF file
-    fetch("Resume_Feb_Web.pdf").then((response) => {
+    fetch("Resume_March_Web.pdf").then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Resume_Feb_Web.pdf";
+        alink.download = "Resume_March_Web.pdf";
         alink.click();
       });
     });
@@ -40,7 +40,7 @@ const Resume = () => {
         <div className="card-body">
           <h5 className="card-title">Want To Know More About Me?</h5>
           <p className="card-text">
-          Learn more about my work experience by clicking the 'Download Here' button to view my resume. I look forward to connecting with you and discussing your project further.
+          Learn more about my work experience by clicking the 'Download Here' button to view my resume. I look forward to connecting with you!
           </p>
           <button className="btn btn-primary" onClick={onButtonClick}>
             Download Here
