@@ -47,7 +47,7 @@ const Resume = () => {
           </button>
         </div>
       </div>
-      {<Github/>}
+      {/* {<Github/>} */}
     </div>
   );
 };
