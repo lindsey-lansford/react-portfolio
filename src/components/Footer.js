@@ -67,7 +67,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <span className="footer-name">&copy; {year} 🧿Lindsey Lansford | Software Developer</span>
+        <span className="footer-name">&copy; {year} 🧿Lindsey Lansford | Web Developer</span>
       </footer>
     </div>
   );
