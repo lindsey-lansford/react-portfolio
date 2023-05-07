@@ -33,16 +33,10 @@ const About = () => {
         >
           <img className="profpic" src={bioImageCom} alt="profile" />
           <Box>
-              <span>Hi there! My name is Lindsey and I'm a Web Developer based in
+              Hi there! My name is Lindsey and I'm a Web Developer based in
               Denver, CO. I have an extensive background in Product/Project
               Management & Digital Integrations, and joined the more technical
-            side of the industry, coding.</span>
-          </Box>
-          <Box>
-          <span>I absolutely love problem solving and designing/building things that
-            will hopefully make one’s life less….chaotic? I pride myself on my
-            ability to communicate effectively with clients and bring their
-            vision to life.</span>
+            side of the industry, coding.
           </Box>
         </Stack>
         <Stack
@@ -52,7 +46,9 @@ const About = () => {
           alignItems="baseline"
           className="lower-section"
         >
-
+          <Box>
+          <span>I absolutely love problem solving and designing/building things that will hopefully make one’s life less….chaotic? I pride myself on my ability to communicate effectively with clients and bring their vision to life.</span>
+          </Box>
           <Box>
             {" "}
             My expertise lies in HTML5, CSS3, JavaScript, Node, React, and
