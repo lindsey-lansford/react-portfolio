@@ -37,13 +37,12 @@ const About = () => {
               Denver, CO. I have an extensive background in Product/Project
               Management & Digital Integrations, and joined the more technical
             side of the industry, coding.</span>
-            <span>I absolutely love problem solving and designing/building things that
+          </Box>
+          <Box>
+          <span>I absolutely love problem solving and designing/building things that
             will hopefully make one’s life less….chaotic? I pride myself on my
             ability to communicate effectively with clients and bring their
             vision to life.</span>
-          </Box>
-          <Box>
-            
           </Box>
         </Stack>
         <Stack
