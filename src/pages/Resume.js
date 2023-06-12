@@ -20,14 +20,14 @@ const Spin = styled.div`
 const Resume = () => {
   const onButtonClick = () => {
     // using JavaScript method to get PDF file
-    fetch("Freelance_resume.pdf").then((response) => {
+    fetch("LML_Resume_WebDev_FL.pdf").then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Freelance_resume.pdf";
+        alink.download = "LML_Resume_WebDev_FL.pdf";
         alink.click();
       });
     });
